@@ -1,0 +1,44 @@
+{
+  "id": "3490419",
+  "name": "personWeb",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1274462",
+      "name": "icon_email",
+      "font_class": "email",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "14240156",
+      "name": "邮件_email_bg",
+      "font_class": "youjian_email_bg",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "309936",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "854678",
+      "name": "微信",
+      "font_class": "z-weixin",
+      "unicode": "e6c9",
+      "unicode_decimal": 59081
+    },
+    {
+      "icon_id": "4937000",
+      "name": "github-fill",
+      "font_class": "github-fill",
+      "unicode": "e885",
+      "unicode_decimal": 59525
+    }
+  ]
+}
