@@ -200,8 +200,7 @@ const noteArr = [
 		noteTitle: `scroll事件触发次数太多触发太频繁了要节流防抖;`,
 		reason: ``,
 		solution: ``,
-		background:
-			"https://ts1.cn.mm.bing.net/th/id/R-C.021d5e512955f9b42bbc59aa9a4440bf?rik=rQGl%2fv8vuSzMVg&riu=http%3a%2f%2fwww.962.net%2fup%2f2015-11%2f14485922489097853.jpg&ehk=l67tIQX6PqrIRNIW081C2VCIXenbx1DBWYBIV3s0Pak%3d&risl=&pid=ImgRaw&r=0",
+		background: "https://ts1.cn.mm.bing.net/th/id/R-C.021d5e512955f9b42bbc59aa9a4440bf?rik=rQGl%2fv8vuSzMVg&riu=http%3a%2f%2fwww.962.net%2fup%2f2015-11%2f14485922489097853.jpg&ehk=l67tIQX6PqrIRNIW081C2VCIXenbx1DBWYBIV3s0Pak%3d&risl=&pid=ImgRaw&r=0",
 		src: "https://store.steampowered.com/app/377160/Fallout_4/",
 	},
 	{
@@ -823,7 +822,8 @@ const noteArr = [
 		noteTitle: `浏览器有自动修正和容错机制，只要代码写的错误不是太严重，会自动补全和修正`,
 		reason: ``,
 		solution: ``,
-	},{
+	},
+	{
 		id: 75,
 		audioName: "",
 		audioSrc: "",
@@ -832,7 +832,8 @@ const noteArr = [
 		noteTitle: `web性能之资源加载时间分析【Resource Timing】`,
 		reason: `https://juejin.cn/post/6844903972902273032`,
 		solution: ``,
-	},{
+	},
+	{
 		id: 76,
 		audioName: "",
 		audioSrc: "",
@@ -841,7 +842,8 @@ const noteArr = [
 		noteTitle: `web性能之资源加载时间分析【Resource Timing】`,
 		reason: `https://juejin.cn/post/6844903972902273032`,
 		solution: ``,
-	},{
+	},
+	{
 		id: 77,
 		audioName: "",
 		audioSrc: "",
@@ -850,7 +852,8 @@ const noteArr = [
 		noteTitle: `let arr= reactive([])来解决数组对象更新数据 而不更新视图的问题。`,
 		reason: `https://blog.csdn.net/m0_74802419/article/details/133255250`,
 		solution: ``,
-	},{
+	},
+	{
 		id: 78,
 		audioName: "",
 		audioSrc: "",
@@ -859,7 +862,8 @@ const noteArr = [
 		noteTitle: `图中chrome开发者工具右侧的css样式栏中一些css样式被中划线划起来或者变暗了,分别代表什么意思`,
 		reason: `删除线：已被覆盖；半透明：不继承；灰色：不由本浏览器读取。`,
 		solution: `https://segmentfault.com/q/1010000000638562`,
-	},{
+	},
+	{
 		id: 79,
 		audioName: "",
 		audioSrc: "",
@@ -1116,4 +1120,5 @@ onMounted(() => {
 		}
 	}
 }
+
 </style>

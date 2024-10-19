@@ -54,7 +54,7 @@
 						<path fill="currentColor" d="M20 9V6h-3V4h3q.825 0 1.413.588T22 6v3zM2 9V6q0-.825.588-1.412T4 4h3v2H4v3zm15 11v-2h3v-3h2v3q0 .825-.587 1.413T20 20zM4 20q-.825 0-1.412-.587T2 18v-3h2v3h3v2zm2-4V8h12v8z" />
 					</svg>
 				</button>
-				<button>
+				<button @click="router.push('/')">
 					<svg xmlns="http://www.w3.org/2000/svg" width="1.12em" height="1.2em" viewBox="0 0 1216 1312">
 						<path fill="currentColor" d="M1202 1066q0 40-28 68l-136 136q-28 28-68 28t-68-28L608 976l-294 294q-28 28-68 28t-68-28L42 1134q-28-28-28-68t28-68l294-294L42 410q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294l294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68L880 704l294 294q28 28 28 68" />
 					</svg>
@@ -71,7 +71,7 @@
 
 			<div id="gameTab">
 				<template v-for="value in routeArr" :key="value.routeId">
-					<router-link :to="value.routeName" >{{value.pageName}}</router-link>
+					<router-link :to="value.routeName">{{ value.pageName }}</router-link>
 				</template>
 			</div>
 		</article>
@@ -95,6 +95,7 @@
 	</div>
 </template>
 <script setup>
+import router from "@/router";
 const routeArr = [
 	{ routeId: "1", routeName: "/game/shop-steam", pageName: "商店" },
 	{ routeId: "2", routeName: "/game/warehouse-steam", pageName: "库" },
@@ -202,13 +203,13 @@ const routeArr = [
 		}
 	}
 	article {
-		#gameTab {		
+		#gameTab {
 			height: 100%;
 			display: flex;
-			a {				
+			a {
 				white-space: nowrap;
 				font-size: 1.2rem;
-				padding: 0.5rem ;
+				padding: 0.5rem;
 				color: white;
 				text-decoration: none;
 				transition: 1s;

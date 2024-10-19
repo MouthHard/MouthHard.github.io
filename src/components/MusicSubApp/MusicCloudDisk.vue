@@ -3,8 +3,8 @@
 	<div v-show="activeTab == 0" id="localTabA">
 		<span>
 			<h6>云盘容量</h6>
-			<div class="progress-container">
-				<div class="progressDL"></div>
+			<div class="capacity-container">
+				<div class="proCapacity"></div>
 			</div>
 			<h6>300g / 1T</h6>
 			<h6>歌曲永久保存，随时随地多端畅听</h6>
@@ -383,7 +383,7 @@ const songSortArr = [
 				color: #038eff;
 			}
 		}
-		.progress-container {
+		.capacity-container {
 			width: 40%;
 			height: 0.3rem;
 			margin-top: 2%;
@@ -391,12 +391,12 @@ const songSortArr = [
 			background: #4e4d4d;
 			border-left: 1px solid #ffffff;
 			border-right: 2px solid #ffffff;
-			.progressDL {
+			.proCapacity {
 				width: 30%;
 				height: 50%;
 				box-shadow: 5px 0 10px 1px #ffffff;
 				background: linear-gradient(to left, #ffffff, #049a11);
-				animation: progressDL 1s infinite both;
+				
 			}
 		}
 	}

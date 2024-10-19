@@ -529,7 +529,7 @@ body {
 				cursor: pointer;
 				box-shadow: 1rem 1rem 2rem 1rem rgba(0, 0, 0, 1), inset 0.5rem 0 2rem 2px rgba(0, 0, 0, 1);
 				animation: focus-in-contract-bck 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-				background-image: linear-gradient(to bottom, #1faa77 0%,#000000 15% ,#000000 85%, #1f83aa 100%);
+				background-image: linear-gradient(to bottom, #1faa77 0%, #000000 15%, #000000 85%, #1f83aa 100%);
 				text-align: center;
 			}
 			@keyframes focus-in-contract-bck {

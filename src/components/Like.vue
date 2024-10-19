@@ -628,6 +628,18 @@ const noteArr = [
 		reason: `https://blog.csdn.net/weixin_43792451/article/details/131334077    帖子  https://www.jianshu.com/p/a03dc72fb556`,
 		solution: `1. 把<el-dialog>移出<el-table>，还是用一个全局变量来控制dialog的显示。 即全局只有一个el-dialog，适用于我这个项目的场景：一个时间只要显示一个log dialog。但不适用于你的项目本来就是要同时显示多个el-dialog。 2.table里每行都有dialog, table数据每一行都有个变量用于控制每行的dialog的显示。但是要注意vue的响应式数据更新机制，这个变量必须要在table数据声明的时候就一起声明。比如我必须在填塞table数据的时候就把这个变量写出来, 从而在点击log标题的click事件中去操作这个变量的true/false`,
 	},
+	{
+		id: 80,
+		noteTitle: `运行nodeJS项目文件时使用命令node xxx.js等等文件，每次修改代码都需要重新启动node服务，这很麻烦，于是可以下载nodemon，nodemon可以一直保持运行且在运行过程修改不需要重新启动服务。但是nodemon安装使用会出现“没有nodemon该命令”`,
+		reason: `可以管理员执行powerShell，然后启动命令set-ExecutionPolicy remoteSigned 来修改window执行策略。然后全部选是(A)即可重新运行nodemon  xxx.js`,
+		solution: `如果还不行， 在以上基础再运行npx nodemon  xxx.js`,
+	},
+	{
+		id: 81,
+		noteTitle: `window的高级系统设置里的环境变量的path 可以添加某些程序和文件的所在路径，xxx.exe等等，这样无论在CMD命令行的什么路径下都能执行这些程序，而不需要专门跳转到其所在的路径下执行这些exe`,
+		reason: `在cmd 随便一个路径下执行 xxx比如在C盘执行QQ时，但是QQ在D盘/qq下面，如果命令行在C盘下面没有找到QQ.exe执行程序，就会进环境变量中的path变量中寻找`,
+		solution: `而高级系统设置中有用户变量和系统变量，二者都有path，区别在于一台电脑可以设置多个用户，用户变量中的变量只对当前电脑的当前用户起作用，系统变量对当前电脑所有用户起作用`,
+	},
 ];
 
 // 下拉显示box函数

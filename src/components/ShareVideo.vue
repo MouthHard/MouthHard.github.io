@@ -2,7 +2,7 @@
 	<div id="cardCon">
 		<button @click="rotateCard">刷新更多up</button>
 		<button @click="router.push('/')">返回</button>
-		<div class="card" v-for="item in cardArr[cardIndex].arr">
+		<div class="card" v-for="item in cardArr[cardIndex].arr" @click="openNewWindow(item.upLink)">
 			<img :src="item.imgSrc" />
 			<h4>{{ item.upName }}</h4>
 			<h5>{{ item.upSign }}</h5>
@@ -53,36 +53,42 @@ const cardArr = [
 			{
 				subId: 0,
 				imgSrc: "https://i0.hdslb.com/bfs/face/ece8fe7095d538e17fa0fc73a6ee9eb0a3d3445a.jpg@240w_240h_1c_1s_!web-avatar-space-header.webp",
+				upLink: "https://space.bilibili.com/3816626",
 				upName: "森呐映画",
 				upSign: "向真理和自由，无名的献身。",
 			},
 			{
 				subId: 1,
 				imgSrc: "https://i2.hdslb.com/bfs/face/2827281d7fd11cd62d9cc355039860cd2979970b.jpg@240w_240h_1c_1s_!web-avatar-space-header.webp",
+				upLink: "https://space.bilibili.com/3816626",
 				upName: "Linksphotograph",
 				upSign: "探索世界~",
 			},
 			{
 				subId: 2,
 				imgSrc: "https://i2.hdslb.com/bfs/face/f8f0fc4114bb06a87481abe12faa006a383cbe6d.jpg@240w_240h_1c_1s_!web-avatar-space-header.webp",
+				upLink: "https://space.bilibili.com/3816626",
 				upName: "波士顿圆脸",
 				upSign: "人话说世界",
 			},
 			{
 				subId: 3,
 				imgSrc: "https://i0.hdslb.com/bfs/face/ece8fe7095d538e17fa0fc73a6ee9eb0a3d3445a.jpg@240w_240h_1c_1s_!web-avatar-space-header.webp",
+				upLink: "https://space.bilibili.com/3816626",
 				upName: "up名字",
 				upSign: "up签名",
 			},
 			{
 				subId: 4,
 				imgSrc: "https://i0.hdslb.com/bfs/face/ece8fe7095d538e17fa0fc73a6ee9eb0a3d3445a.jpg@240w_240h_1c_1s_!web-avatar-space-header.webp",
+				upLink: "https://space.bilibili.com/3816626",
 				upName: "up名字",
 				upSign: "up签名",
 			},
 			{
 				subId: 5,
 				imgSrc: "https://i0.hdslb.com/bfs/face/ece8fe7095d538e17fa0fc73a6ee9eb0a3d3445a.jpg@240w_240h_1c_1s_!web-avatar-space-header.webp",
+				upLink: "https://space.bilibili.com/3816626",
 				upName: "up名字",
 				upSign: "up签名",
 			},
@@ -94,36 +100,42 @@ const cardArr = [
 			{
 				subId: 0,
 				imgSrc: "https://i1.hdslb.com/bfs/face/17b605f1ddddf29668f8d220ed111e19ee2c79bb.jpg@240w_240h_1c_1s_!web-avatar-space-header.webp",
+				upLink: "https://space.bilibili.com/3816626",
 				upName: "期末77",
 				upSign: "up签名A",
 			},
 			{
 				subId: 1,
 				imgSrc: "https://i1.hdslb.com/bfs/face/837496ba7225f5ae78c888407716340ad73eed0d.jpg@240w_240h_1c_1s_!web-avatar-space-header.webp",
+				upLink: "https://space.bilibili.com/3816626",
 				upName: "8KRAW",
 				upSign: "up签名A",
 			},
 			{
 				subId: 2,
 				imgSrc: "https://i0.hdslb.com/bfs/face/ece8fe7095d538e17fa0fc73a6ee9eb0a3d3445a.jpg@240w_240h_1c_1s_!web-avatar-space-header.webp",
+				upLink: "https://space.bilibili.com/3816626",
 				upName: "up名字a",
 				upSign: "up签名A",
 			},
 			{
 				subId: 3,
 				imgSrc: "https://i0.hdslb.com/bfs/face/ece8fe7095d538e17fa0fc73a6ee9eb0a3d3445a.jpg@240w_240h_1c_1s_!web-avatar-space-header.webp",
+				upLink: "https://space.bilibili.com/3816626",
 				upName: "up名字a",
 				upSign: "up签名A",
 			},
 			{
 				subId: 4,
 				imgSrc: "https://i0.hdslb.com/bfs/face/ece8fe7095d538e17fa0fc73a6ee9eb0a3d3445a.jpg@240w_240h_1c_1s_!web-avatar-space-header.webp",
+				upLink: "https://space.bilibili.com/3816626",
 				upName: "up名字a",
 				upSign: "up签名A",
 			},
 			{
 				subId: 5,
 				imgSrc: "https://i0.hdslb.com/bfs/face/ece8fe7095d538e17fa0fc73a6ee9eb0a3d3445a.jpg@240w_240h_1c_1s_!web-avatar-space-header.webp",
+				upLink: "https://space.bilibili.com/3816626",
 				upName: "up名字a",
 				upSign: "up签名A",
 			},
@@ -144,6 +156,10 @@ const rotateCard = () => {
 	cardDoms[4].animate({ transform: "perspective(40rem) rotateZ(1080deg) rotateX(-1135deg)  " }, cardDomsTiming);
 	cardDoms[5].animate({ transform: "perspective(40rem) rotateZ(1080deg) rotateX(1135deg) " }, cardDomsTiming);
 };
+const openNewWindow =(link)=>{
+	const newWindow = window.open(link, "_blank");
+    newWindow.focus();
+}
 </script>
 <style lang="less" scoped>
 #cardCon {
@@ -593,7 +609,7 @@ const rotateCard = () => {
 		&:hover {
 			cursor: pointer;
 		}
-		
+
 		&:hover img {
 			border: 2px ridge #000000;
 			box-shadow: 0 0 15px 5px #fff, 2px 2px 0 #000000, 4px 4px 0 #f80000, 6px 6px 0 #1003ff, 8px 8px 0 #04f200, -2px 2px 0 #000000, -4px 4px 0 #f80000, -6px 6px 0 #1003ff, -8px 8px 0 #1cf200;

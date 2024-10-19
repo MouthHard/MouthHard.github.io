@@ -1,18 +1,7 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 
-// 批量导入
-// const routes = [];
-//  importPages(require.context('../components', true, /\.vue$/,'lazy'))
-//  function importPages (r) {
-//     r.keys().forEach(key => {
-//       console.log(key)
-//       routes.push({ path: (key.split('.'))[1], component: ()=>r(key)})
-//     });
-//   }
-
 const routes = [
 	{ path: "/", name: "app", component: () => import("@/App.vue") },
-
 	{ path: "/aphorism", name: "aphorism", component: () => import("@/components/Aphorism.vue") },
 	{ path: "/landscape", name: "landscape", component: () => import("@/components/Landscape.vue") },
 	{
@@ -71,7 +60,7 @@ const routes = [
 	{
 		path: "/docu",
 		name: "docu",
-		redirect: "/docu/calendar", //重定向到第一个子路由
+		redirect: "/docu/convertor", //重定向到第一个子路由
 		component: () => import("@/components/Document.vue"),
 		children: [
 			// ---------子路由

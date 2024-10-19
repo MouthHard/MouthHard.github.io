@@ -15,25 +15,12 @@ import { getCurrentInstance, onMounted } from "vue";
 
 //路由数组
 const routerArr = [
-	{ id: "001", title: "日历", address: "/docu/calendar" },
-	{ id: "002", title: "转换器", address: "/docu/convertor" },
-	{ id: "003", title: "计算器", address: "/docu/calculator" },
+	{ id: "001", title: "转换器", address: "/docu/convertor" },
+	{ id: "002", title: "计算器", address: "/docu/calculator" },
+	{ id: "003", title: "日历", address: "/docu/calendar" },
 	{ id: "004", title: "返回", address: "/" },
 ];
 const { proxy } = getCurrentInstance();
-
-onMounted(async () => {
-	proxy.$axios
-		.get("http://112.125.90.247:81/api/Userinfo/GetRoles")
-		.then((result) => {
-			//通过response获取具体数据，赋值给data中定义的newslist
-			console.log(result);
-		})
-		.catch((err) => {
-			//请求失败执行catch方法
-			alert(err);
-		});
-});
 </script>
 
 <style lang="scss" scoped>
@@ -43,7 +30,6 @@ onMounted(async () => {
 }
 #menu {
 	height: 100%;
-
 	width: 100%;
 	display: flex;
 	background: #000000;
@@ -59,13 +45,10 @@ onMounted(async () => {
 		width: 12%;
 		height: 100vh;
 		justify-content: space-around;
-
 		-webkit-box-shadow: 1px 1px #3e3e3e, 2px 2px #3e3e3e, 3px 3px #3e3e3e, 4px 4px #3e3e3e, 5px 5px #3e3e3e, 6px 6px #3e3e3e, 7px 7px #3e3e3e, 8px 8px #3e3e3e;
 		-webkit-transform: translateX(-8px) translateY(-8px);
 		box-shadow: inset 0 -1rem 2rem -5px rgb(255, 2, 2);
-
 		transform: translateX(-4px) translateY(-4px);
-
 		a {
 			font-weight: bolder;
 			font-size: 1.2rem;

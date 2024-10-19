@@ -12,7 +12,7 @@
 <script setup></script>
 
 <style scoped lang="scss">
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
@@ -39,21 +39,18 @@
 		animation: leftA 2s cubic-bezier(0.63, 0.04, 1, 0.04) forwards;
 	}
 	img:nth-of-type(2) {
-		box-shadow: -1px -1px #3e3e3e, -2px -2px #4b4b4b, -3px -3px #585858, -4px -4px #4b4b4b, -5px -5px #5a5a5a, -6px -6px #9e9e9e, -7px -7px #3b3b3b, -8px -8px #ffffff,
-			inset 0 -15px 20px 5px rgba(0, 0, 0, 0.8), -30px 0 20px -6px rgba(2, 1, 1, 0.8);
+		box-shadow: -1px -1px #3e3e3e, -2px -2px #4b4b4b, -3px -3px #585858, -4px -4px #4b4b4b, -5px -5px #5a5a5a, -6px -6px #9e9e9e, -7px -7px #3b3b3b, -8px -8px #ffffff, inset 0 -15px 20px 5px rgba(0, 0, 0, 0.8), -30px 0 20px -6px rgba(2, 1, 1, 0.8);
 		animation: leftB 2s cubic-bezier(0.63, 0.04, 1, 0.04) forwards;
 		left: 25%;
 	}
 	img:nth-of-type(3) {
 		right: 25%;
-		box-shadow: -1px -1px #3e3e3e, -2px -2px #4b4b4b, -3px -3px #585858, -4px -4px #4b4b4b, -5px -5px #5a5a5a, -6px -6px #9e9e9e, -7px -7px #3b3b3b, -8px -8px #ffffff,
-			inset 0 -15px 20px 5px rgba(0, 0, 0, 0.8), -30px 0 20px -6px rgba(2, 1, 1, 0.8);
+		box-shadow: -1px -1px #3e3e3e, -2px -2px #4b4b4b, -3px -3px #585858, -4px -4px #4b4b4b, -5px -5px #5a5a5a, -6px -6px #9e9e9e, -7px -7px #3b3b3b, -8px -8px #ffffff, inset 0 -15px 20px 5px rgba(0, 0, 0, 0.8), -30px 0 20px -6px rgba(2, 1, 1, 0.8);
 		animation: rightA 2s cubic-bezier(0.63, 0.04, 1, 0.04) forwards;
 	}
 	img:nth-of-type(4) {
 		right: 0;
-		box-shadow: -1px -1px #3e3e3e, -2px -2px #4b4b4b, -3px -3px #585858, -4px -4px #4b4b4b, -5px -5px #5a5a5a, -6px -6px #9e9e9e, -7px -7px #3b3b3b, -8px -8px #ffffff,
-			inset 0 -15px 20px 5px rgba(0, 0, 0, 0.8), -30px 0 20px -6px rgba(2, 1, 1, 0.8);
+		box-shadow: -1px -1px #3e3e3e, -2px -2px #4b4b4b, -3px -3px #585858, -4px -4px #4b4b4b, -5px -5px #5a5a5a, -6px -6px #9e9e9e, -7px -7px #3b3b3b, -8px -8px #ffffff, inset 0 -15px 20px 5px rgba(0, 0, 0, 0.8), -30px 0 20px -6px rgba(2, 1, 1, 0.8);
 		animation: rightB 2s cubic-bezier(0.63, 0.04, 1, 0.04) forwards;
 	}
 

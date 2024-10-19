@@ -41,9 +41,7 @@
 			<div>
 				<button>◀</button>
 				<svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
-					<path
-						fill="currentColor"
-						d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14" />
+					<path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14" />
 				</svg>
 				<input placeholder="国际歌" type="text" />
 				<svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
@@ -55,34 +53,19 @@
 				<img src="" alt="" />
 				<p>游音风</p>
 				<svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 48 48">
-					<path
-						fill="none"
-						stroke="currentColor"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						d="M13.116 11.774v24.452M8.804 16.833v14.334M4.5 21.471v5.058m12.957-9.696v14.334m4.49-9.696v5.058m12.722-14.755v24.452m-4.312-19.393v14.334m-4.304-9.696v5.058m12.957-9.696v14.334m4.49-9.696v5.058" />
+					<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M13.116 11.774v24.452M8.804 16.833v14.334M4.5 21.471v5.058m12.957-9.696v14.334m4.49-9.696v5.058m12.722-14.755v24.452m-4.312-19.393v14.334m-4.304-9.696v5.058m12.957-9.696v14.334m4.49-9.696v5.058" />
 				</svg>
 				<svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
-					<path
-						fill="currentColor"
-						d="M22 7v9c0 1.1-.9 2-2 2H6l-4 4V4c0-1.1.9-2 2-2h10.1c-.1.3-.1.7-.1 1s0 .7.1 1H4v12h16V7.9c.7-.1 1.4-.5 2-.9m-6-4c0 1.7 1.3 3 3 3s3-1.3 3-3s-1.3-3-3-3s-3 1.3-3 3" />
+					<path fill="currentColor" d="M22 7v9c0 1.1-.9 2-2 2H6l-4 4V4c0-1.1.9-2 2-2h10.1c-.1.3-.1.7-.1 1s0 .7.1 1H4v12h16V7.9c.7-.1 1.4-.5 2-.9m-6-4c0 1.7 1.3 3 3 3s3-1.3 3-3s-1.3-3-3-3s-3 1.3-3 3" />
 				</svg>
 				<svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
-					<path
-						fill="currentColor"
-						d="m9.25 22l-.4-3.2q-.325-.125-.612-.3t-.563-.375L4.7 19.375l-2.75-4.75l2.575-1.95Q4.5 12.5 4.5 12.338v-.675q0-.163.025-.338L1.95 9.375l2.75-4.75l2.975 1.25q.275-.2.575-.375t.6-.3l.4-3.2h5.5l.4 3.2q.325.125.613.3t.562.375l2.975-1.25l2.75 4.75l-2.575 1.95q.025.175.025.338v.674q0 .163-.05.338l2.575 1.95l-2.75 4.75l-2.95-1.25q-.275.2-.575.375t-.6.3l-.4 3.2zm2.8-6.5q1.45 0 2.475-1.025T15.55 12q0-1.45-1.025-2.475T12.05 8.5q-1.475 0-2.488 1.025T8.55 12q0 1.45 1.013 2.475T12.05 15.5" />
+					<path fill="currentColor" d="m9.25 22l-.4-3.2q-.325-.125-.612-.3t-.563-.375L4.7 19.375l-2.75-4.75l2.575-1.95Q4.5 12.5 4.5 12.338v-.675q0-.163.025-.338L1.95 9.375l2.75-4.75l2.975 1.25q.275-.2.575-.375t.6-.3l.4-3.2h5.5l.4 3.2q.325.125.613.3t.562.375l2.975-1.25l2.75 4.75l-2.575 1.95q.025.175.025.338v.674q0 .163-.05.338l2.575 1.95l-2.75 4.75l-2.95-1.25q-.275.2-.575.375t-.6.3l-.4 3.2zm2.8-6.5q1.45 0 2.475-1.025T15.55 12q0-1.45-1.025-2.475T12.05 8.5q-1.475 0-2.488 1.025T8.55 12q0 1.45 1.013 2.475T12.05 15.5" />
 				</svg>
 				<svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 50 50">
-					<path
-						fill="currentColor"
-						d="M47.36 14.75c.08.29-.021.61-.19.86l-5.39 8.02c-.2.31-.62.48-.971.48c-.1 0-.38-.02-.489-.05L36 23v19c0 .58-.41 1-1 1H14c-.59 0-1-.42-1-1V23l-3.88 1.07c-.45.14-.84-.04-1.09-.43l-5.35-8c-.17-.26-.22-.55-.14-.84c.07-.3.28-.5.55-.64L14 9h5c.59 0 1 .41 1 1c0 2.06 2.89 3.52 4.95 3.52S30 12.07 30 10c0-.58.41-1 1-1h5l10.8 5.06c.28.14.48.39.56.69" />
+					<path fill="currentColor" d="M47.36 14.75c.08.29-.021.61-.19.86l-5.39 8.02c-.2.31-.62.48-.971.48c-.1 0-.38-.02-.489-.05L36 23v19c0 .58-.41 1-1 1H14c-.59 0-1-.42-1-1V23l-3.88 1.07c-.45.14-.84-.04-1.09-.43l-5.35-8c-.17-.26-.22-.55-.14-.84c.07-.3.28-.5.55-.64L14 9h5c.59 0 1 .41 1 1c0 2.06 2.89 3.52 4.95 3.52S30 12.07 30 10c0-.58.41-1 1-1h5l10.8 5.06c.28.14.48.39.56.69" />
 				</svg>
 				<svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
-					<path
-						fill="currentColor"
-						fill-rule="evenodd"
-						d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3zm3-1h12a1 1 0 0 1 1 1v6.268A1.99 1.99 0 0 0 18 12h-4a2 2 0 0 0-2 2v4c0 .364.097.706.268 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1"
-						clip-rule="evenodd" />
+					<path fill="currentColor" fill-rule="evenodd" d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3zm3-1h12a1 1 0 0 1 1 1v6.268A1.99 1.99 0 0 0 18 12h-4a2 2 0 0 0-2 2v4c0 .364.097.706.268 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1" clip-rule="evenodd" />
 				</svg>
 				<button>▬</button>
 				<button>口</button>
@@ -119,30 +102,20 @@
 			</span>
 			<span>
 				<svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
-					<path
-						fill="#63B8FF	"
-						d="M15.85 8.14c.39 0 .77.03 1.14.08C16.31 5.25 13.19 3 9.44 3c-4.25 0-7.7 2.88-7.7 6.43c0 2.05 1.15 3.86 2.94 5.04L3.67 16.5l2.76-1.19c.59.21 1.21.38 1.87.47c-.09-.39-.14-.79-.14-1.21c-.01-3.54 3.44-6.43 7.69-6.43M12 5.89a.96.96 0 1 1 0 1.92a.96.96 0 0 1 0-1.92M6.87 7.82a.96.96 0 1 1 0-1.92a.96.96 0 0 1 0 1.92" />
-					<path
-						fill="#7FFFD4"
-						d="M22.26 14.57c0-2.84-2.87-5.14-6.41-5.14s-6.41 2.3-6.41 5.14s2.87 5.14 6.41 5.14c.58 0 1.14-.08 1.67-.2L20.98 21l-1.2-2.4c1.5-.94 2.48-2.38 2.48-4.03m-8.34-.32a.96.96 0 1 1 .96-.96c.01.53-.43.96-.96.96m3.85 0a.96.96 0 1 1 0-1.92a.96.96 0 0 1 0 1.92" />
+					<path fill="#63B8FF	" d="M15.85 8.14c.39 0 .77.03 1.14.08C16.31 5.25 13.19 3 9.44 3c-4.25 0-7.7 2.88-7.7 6.43c0 2.05 1.15 3.86 2.94 5.04L3.67 16.5l2.76-1.19c.59.21 1.21.38 1.87.47c-.09-.39-.14-.79-.14-1.21c-.01-3.54 3.44-6.43 7.69-6.43M12 5.89a.96.96 0 1 1 0 1.92a.96.96 0 0 1 0-1.92M6.87 7.82a.96.96 0 1 1 0-1.92a.96.96 0 0 1 0 1.92" />
+					<path fill="#7FFFD4" d="M22.26 14.57c0-2.84-2.87-5.14-6.41-5.14s-6.41 2.3-6.41 5.14s2.87 5.14 6.41 5.14c.58 0 1.14-.08 1.67-.2L20.98 21l-1.2-2.4c1.5-.94 2.48-2.38 2.48-4.03m-8.34-.32a.96.96 0 1 1 .96-.96c.01.53-.43.96-.96.96m3.85 0a.96.96 0 1 1 0-1.92a.96.96 0 0 1 0 1.92" />
 				</svg>
 				微信好友
 			</span>
 			<span>
 				<svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 1024 1024">
-					<path
-						fill="#B2DFEE"
-						d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448s448-200.6 448-448S759.4 64 512 64m210.5 612.4c-11.5 1.4-44.9-52.7-44.9-52.7c0 31.3-16.2 72.2-51.1 101.8c16.9 5.2 54.9 19.2 45.9 34.4c-7.3 12.3-125.6 7.9-159.8 4c-34.2 3.8-152.5 8.3-159.8-4c-9.1-15.2 28.9-29.2 45.8-34.4c-35-29.5-51.1-70.4-51.1-101.8c0 0-33.4 54.1-44.9 52.7c-5.4-.7-12.4-29.6 9.4-99.7c10.3-33 22-60.5 40.2-105.8c-3.1-116.9 45.3-215 160.4-215c113.9 0 163.3 96.1 160.4 215c18.1 45.2 29.9 72.8 40.2 105.8c21.7 70.1 14.6 99.1 9.3 99.7" />
+					<path fill="#B2DFEE" d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448s448-200.6 448-448S759.4 64 512 64m210.5 612.4c-11.5 1.4-44.9-52.7-44.9-52.7c0 31.3-16.2 72.2-51.1 101.8c16.9 5.2 54.9 19.2 45.9 34.4c-7.3 12.3-125.6 7.9-159.8 4c-34.2 3.8-152.5 8.3-159.8-4c-9.1-15.2 28.9-29.2 45.8-34.4c-35-29.5-51.1-70.4-51.1-101.8c0 0-33.4 54.1-44.9 52.7c-5.4-.7-12.4-29.6 9.4-99.7c10.3-33 22-60.5 40.2-105.8c-3.1-116.9 45.3-215 160.4-215c113.9 0 163.3 96.1 160.4 215c18.1 45.2 29.9 72.8 40.2 105.8c21.7 70.1 14.6 99.1 9.3 99.7" />
 				</svg>
 				QQ好友
 			</span>
 			<span>
 				<svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 15 15">
-					<path
-						fill="#FFD700"
-						fill-rule="evenodd"
-						d="M0 7.5a7.5 7.5 0 1 1 15 0a7.5 7.5 0 0 1-15 0m7.5-4a.5.5 0 0 1 .453.288L8.92 5.85l2.155.33a.5.5 0 0 1 .282.843L9.784 8.636l.373 2.284a.5.5 0 0 1-.736.518L7.5 10.376l-1.921 1.062a.5.5 0 0 1-.736-.519l.373-2.283l-1.574-1.613a.5.5 0 0 1 .283-.844l2.154-.329l.968-2.062A.5.5 0 0 1 7.5 3.5"
-						clip-rule="evenodd" />
+					<path fill="#FFD700" fill-rule="evenodd" d="M0 7.5a7.5 7.5 0 1 1 15 0a7.5 7.5 0 0 1-15 0m7.5-4a.5.5 0 0 1 .453.288L8.92 5.85l2.155.33a.5.5 0 0 1 .282.843L9.784 8.636l.373 2.284a.5.5 0 0 1-.736.518L7.5 10.376l-1.921 1.062a.5.5 0 0 1-.736-.519l.373-2.283l-1.574-1.613a.5.5 0 0 1 .283-.844l2.154-.329l.968-2.062A.5.5 0 0 1 7.5 3.5" clip-rule="evenodd" />
 				</svg>
 				QQ空间
 			</span>
@@ -156,18 +129,14 @@
 			</span>
 			<span>
 				<svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 256 256">
-					<path
-						fill="#F5DEB3"
-						d="M136.37 187.53a12 12 0 0 1 0 17l-5.94 5.94a60 60 0 0 1-84.88-84.88l24.12-24.11A60 60 0 0 1 152 99a12 12 0 1 1-16 18a36 36 0 0 0-49.37 1.47l-24.1 24.08a36 36 0 0 0 50.92 50.92l5.94-5.94a12 12 0 0 1 16.98 0m74.08-142a60.09 60.09 0 0 0-84.88 0l-5.94 5.94a12 12 0 0 0 17 17l5.94-5.94a36 36 0 0 1 50.92 50.92l-24.11 24.12A36 36 0 0 1 120 139a12 12 0 1 0-16 18a60 60 0 0 0 82.3-2.43l24.12-24.11a60.09 60.09 0 0 0 .03-84.91Z" />
+					<path fill="#F5DEB3" d="M136.37 187.53a12 12 0 0 1 0 17l-5.94 5.94a60 60 0 0 1-84.88-84.88l24.12-24.11A60 60 0 0 1 152 99a12 12 0 1 1-16 18a36 36 0 0 0-49.37 1.47l-24.1 24.08a36 36 0 0 0 50.92 50.92l5.94-5.94a12 12 0 0 1 16.98 0m74.08-142a60.09 60.09 0 0 0-84.88 0l-5.94 5.94a12 12 0 0 0 17 17l5.94-5.94a36 36 0 0 1 50.92 50.92l-24.11 24.12A36 36 0 0 1 120 139a12 12 0 1 0-16 18a60 60 0 0 0 82.3-2.43l24.12-24.11a60.09 60.09 0 0 0 .03-84.91Z" />
 				</svg>
 				复制链接
 			</span>
 			<span>
 				<svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 48 48">
 					<g fill="none" stroke="#7FFF00" stroke-linejoin="round" stroke-width="4">
-						<path
-							fill="currentColor"
-							d="M18 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 24H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V30a2 2 0 0 0-2-2ZM42 4H30a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z" />
+						<path fill="currentColor" d="M18 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 24H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V30a2 2 0 0 0-2-2ZM42 4H30a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z" />
 						<path stroke-linecap="round" d="M28 28h16m-8 8h8m-16 8h16" />
 					</g>
 				</svg>
@@ -185,9 +154,7 @@
 				<div>{{ song.time }}</div>
 				<div>
 					<svg @click="changeLike($event, song.songId)" xmlns="http://www.w3.org/2000/svg" width="1.2rem" height="1.2rem" viewBox="0 0 32 32">
-						<path
-							fill="black"
-							d="M21.008 5.162c-2.84.509-5.011 3.905-5.011 3.905s-2.18-3.396-5.012-3.905c-7.012-1.25-9.903 4.993-8.732 9.64c1.73 6.863 10.053 13.014 12.834 14.916c.55.376 1.27.376 1.83 0c2.791-1.902 11.113-8.053 12.834-14.916c1.16-4.647-1.73-10.89-8.743-9.64" />
+						<path fill="black" d="M21.008 5.162c-2.84.509-5.011 3.905-5.011 3.905s-2.18-3.396-5.012-3.905c-7.012-1.25-9.903 4.993-8.732 9.64c1.73 6.863 10.053 13.014 12.834 14.916c.55.376 1.27.376 1.83 0c2.791-1.902 11.113-8.053 12.834-14.916c1.16-4.647-1.73-10.89-8.743-9.64" />
 					</svg>
 					<svg xmlns="http://www.w3.org/2000/svg" width="1.2rem" height="1.2rem" viewBox="0 0 24 24">
 						<path fill="currentColor" d="M2 2h20v11h-2V4H4v16h9v2H2zm10 5h4v2h-2v5a3 3 0 1 1-2-2.83zm0 7a1 1 0 1 0-2 0a1 1 0 0 0 2 0m8 1v3h3v2h-3v3h-2v-3h-3v-2h3v-3z" />
@@ -198,20 +165,13 @@
 					<div class="singleSongSetting">
 						<span>
 							<svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 2048 2048">
-								<path
-									fill="black"
-									d="M2048 128v1408H731l-475 475v-475H0V128zm-128 128H128v1152h256v293l293-293h1243zm-640 640h-128V640h256v256q0 27-10 50t-27 40t-41 28t-50 10zm-512 0H640V640h256v256q0 27-10 50t-27 40t-41 28t-50 10z" />
+								<path fill="black" d="M2048 128v1408H731l-475 475v-475H0V128zm-128 128H128v1152h256v293l293-293h1243zm-640 640h-128V640h256v256q0 27-10 50t-27 40t-41 28t-50 10zm-512 0H640V640h256v256q0 27-10 50t-27 40t-41 28t-50 10z" />
 							</svg>
 							查看评论
 						</span>
 						<span>
 							<svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 512 512">
-								<path
-									fill="black"
-									stroke="currentColor"
-									stroke-miterlimit="10"
-									stroke-width="32"
-									d="M112 111v290c0 17.44 17 28.52 31 20.16l247.9-148.37c12.12-7.25 12.12-26.33 0-33.58L143 90.84c-14-8.36-31 2.72-31 20.16Z" />
+								<path fill="black" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" d="M112 111v290c0 17.44 17 28.52 31 20.16l247.9-148.37c12.12-7.25 12.12-26.33 0-33.58L143 90.84c-14-8.36-31 2.72-31 20.16Z" />
 							</svg>
 							播放
 						</span>
@@ -226,9 +186,7 @@
 								<g fill="none" stroke="currentColor" stroke-linejoin="round">
 									<circle cx="25.328" cy="23.997" r="9.244" />
 									<circle cx="25.328" cy="23.997" r="2.464" />
-									<path
-										stroke-linecap="round"
-										d="M26.194 19.543a4.539 4.539 0 0 1 3.566 3.48m-5.299 5.43a4.538 4.538 0 0 1-3.566-3.48m5.905-7.94a7.12 7.12 0 0 1 5.432 5.233m-8.377 8.698a7.12 7.12 0 0 1-5.432-5.233" />
+									<path stroke-linecap="round" d="M26.194 19.543a4.539 4.539 0 0 1 3.566 3.48m-5.299 5.43a4.538 4.538 0 0 1-3.566-3.48m5.905-7.94a7.12 7.12 0 0 1 5.432 5.233m-8.377 8.698a7.12 7.12 0 0 1-5.432-5.233" />
 									<g stroke-linecap="round">
 										<path d="M11.038 23.96c.015-7.891 6.424-14.277 14.316-14.263c7.892.015 14.277 6.424 14.263 14.316c-.008 7.887-6.405 14.276-14.292 14.275" />
 										<path d="M44.175 34.34c-5.712 10.41-18.78 14.217-29.19 8.505A21.498 21.498 0 0 1 4.657 29.9C1.396 18.483 8.01 6.585 19.426 3.326a21.499 21.499 0 0 1 16.45 1.939" />
@@ -274,10 +232,7 @@
 								<g fill="none" stroke="currentColor" stroke-width="4">
 									<path d="M12 9.927V7a3 3 0 0 1 3-3h26a3 3 0 0 1 3 3v26a3 3 0 0 1-3 3h-2.983" />
 									<rect width="34" height="34" x="4" y="10" stroke-linejoin="round" rx="3" />
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										d="m18.44 23.11l5.292-5.51c1.451-1.451 3.837-1.42 5.328.072c1.491 1.491 1.523 3.877.072 5.328l-1.91 2.023m-13.756 3.724c-.51.51-1.565 1.53-1.565 1.53c-1.452 1.451-1.492 4.038 0 5.53c1.49 1.49 3.876 1.523 5.328.071l5.164-4.688" />
+									<path stroke-linecap="round" stroke-linejoin="round" d="m18.44 23.11l5.292-5.51c1.451-1.451 3.837-1.42 5.328.072c1.491 1.491 1.523 3.877.072 5.328l-1.91 2.023m-13.756 3.724c-.51.51-1.565 1.53-1.565 1.53c-1.452 1.451-1.492 4.038 0 5.53c1.49 1.49 3.876 1.523 5.328.071l5.164-4.688" />
 									<path stroke-linecap="round" stroke-linejoin="round" d="M18.663 28.328a3.863 3.863 0 0 1-1.131-2.473A3.665 3.665 0 0 1 18.592 23m3.729 2.861c1.491 1.491 1.523 3.877.072 5.329" />
 								</g>
 							</svg>
@@ -285,9 +240,7 @@
 						</span>
 						<span>
 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-arrow-down-square" viewBox="0 0 16 16">
-								<path
-									fill-rule="evenodd"
-									d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 2.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+								<path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 2.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
 							</svg>
 							下载
 						</span>
@@ -301,9 +254,7 @@
 						</span>
 						<span>
 							<svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
-								<path
-									fill="currentColor"
-									d="M14.5 17h2q.625 0 1.063-.437T18 15.5v-4h1V10h-2.5V9h-2v1H12v1.5h1v4q0 .625.438 1.063T14.5 17m0-5.5h2v4h-2zM4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h6l2 2h8q.825 0 1.413.588T22 8v10q0 .825-.587 1.413T20 20zm0-2h16V8h-8.825l-2-2H4zm0 0V6z" />
+								<path fill="currentColor" d="M14.5 17h2q.625 0 1.063-.437T18 15.5v-4h1V10h-2.5V9h-2v1H12v1.5h1v4q0 .625.438 1.063T14.5 17m0-5.5h2v4h-2zM4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h6l2 2h8q.825 0 1.413.588T22 8v10q0 .825-.587 1.413T20 20zm0-2h16V8h-8.825l-2-2H4zm0 0V6z" />
 							</svg>
 							从列表中删除
 						</span>
@@ -365,14 +316,12 @@
 					<div class="time">{{ curTime }}</div>
 					<div class="range">
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
-							<path
-								d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z" />
+							<path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z" />
 						</svg>
 					</div>
 					<div class="wifi">
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-wifi" viewBox="0 0 16 16">
-							<path
-								d="M15.384 6.115a.485.485 0 0 0-.047-.736A12.444 12.444 0 0 0 8 3C5.259 3 2.723 3.882.663 5.379a.485.485 0 0 0-.048.736.518.518 0 0 0 .668.05A11.448 11.448 0 0 1 8 4c2.507 0 4.827.802 6.716 2.164.205.148.49.13.668-.049z" />
+							<path d="M15.384 6.115a.485.485 0 0 0-.047-.736A12.444 12.444 0 0 0 8 3C5.259 3 2.723 3.882.663 5.379a.485.485 0 0 0-.048.736.518.518 0 0 0 .668.05A11.448 11.448 0 0 1 8 4c2.507 0 4.827.802 6.716 2.164.205.148.49.13.668-.049z" />
 							<path
 								d="M13.229 8.271a.482.482 0 0 0-.063-.745A9.455 9.455 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.576 1.336c.206.132.48.108.653-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.407.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.61-.091l.016-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .707 0l.707-.707z" />
 						</svg>
@@ -380,8 +329,7 @@
 					<div class="battery">
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-battery-half" viewBox="0 0 16 16">
 							<path d="M2 6h5v4H2V6z" />
-							<path
-								d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8z" />
+							<path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8z" />
 						</svg>
 					</div>
 				</div>
@@ -397,14 +345,11 @@
 					<div class="music-content">
 						<div class="music-head" @click.self="closeSongList">
 							<svg @click="changePorM" xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 512 512">
-								<path
-									fill="currentColor"
-									d="m19.828 18.256l-.002.015c249.642 36.995 371.904 169.983 397.32 278.01c-2.094 5.977-4.496 11.044-7.068 14.968c-17.29 26.383-62.522 40.075-101.654 28.596c5.984-19.75 10.132-39.834 12.07-59.12c-95.46 8.177-212.544 8.42-301.207-22.642c41.727 95.317 99.325 164.465 164.983 230.08c18.296-2.164 35.807-11.35 51.837-25.37c85.218 34.667 188.066-2.555 226.748-60.68c46.922-70.5 74.07-317.52-167.462-383.856H232.81c160.326 54.874 195.73 167.74 191.573 239.03c-37.15-93.627-137.68-191.855-312.38-239.03H19.83z" />
+								<path fill="currentColor" d="m19.828 18.256l-.002.015c249.642 36.995 371.904 169.983 397.32 278.01c-2.094 5.977-4.496 11.044-7.068 14.968c-17.29 26.383-62.522 40.075-101.654 28.596c5.984-19.75 10.132-39.834 12.07-59.12c-95.46 8.177-212.544 8.42-301.207-22.642c41.727 95.317 99.325 164.465 164.983 230.08c18.296-2.164 35.807-11.35 51.837-25.37c85.218 34.667 188.066-2.555 226.748-60.68c46.922-70.5 74.07-317.52-167.462-383.856H232.81c160.326 54.874 195.73 167.74 191.573 239.03c-37.15-93.627-137.68-191.855-312.38-239.03H19.83z" />
 							</svg>
 							<div>{{ activeSong }}</div>
 							<svg @click="showShareSetting" xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-share" viewBox="0 0 16 16">
-								<path
-									d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
+								<path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z" />
 							</svg>
 						</div>
 						<div class="music-center" @click.self="closeSongList">
@@ -415,9 +360,7 @@
 						<div class="music-foot" @click.self="closeSongList">
 							<div>
 								<svg @click="fillColor = fillColor == 'black' ? 'red' : 'black'" xmlns="http://www.w3.org/2000/svg" width="1.2rem" height="1.2rem" viewBox="0 0 32 32">
-									<path
-										:fill="fillColor"
-										d="M21.008 5.162c-2.84.509-5.011 3.905-5.011 3.905s-2.18-3.396-5.012-3.905c-7.012-1.25-9.903 4.993-8.732 9.64c1.73 6.863 10.053 13.014 12.834 14.916c.55.376 1.27.376 1.83 0c2.791-1.902 11.113-8.053 12.834-14.916c1.16-4.647-1.73-10.89-8.743-9.64" />
+									<path :fill="fillColor" d="M21.008 5.162c-2.84.509-5.011 3.905-5.011 3.905s-2.18-3.396-5.012-3.905c-7.012-1.25-9.903 4.993-8.732 9.64c1.73 6.863 10.053 13.014 12.834 14.916c.55.376 1.27.376 1.83 0c2.791-1.902 11.113-8.053 12.834-14.916c1.16-4.647-1.73-10.89-8.743-9.64" />
 								</svg>
 								<svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
 									<g fill="none" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
@@ -426,20 +369,13 @@
 										</path>
 										<path stroke-dasharray="18" stroke-dashoffset="18" d="M12 4 h2 v6 h2.5 L12 14.5M12 4 h-2 v6 h-2.5 L12 14.5">
 											<animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="18;0" />
-											<animate
-												attributeName="d"
-												calcMode="linear"
-												dur="1.5s"
-												keyTimes="0;0.7;1"
-												repeatCount="indefinite"
-												values="M12 4 h2 v6 h2.5 L12 14.5M12 4 h-2 v6 h-2.5 L12 14.5;M12 4 h2 v3 h2.5 L12 11.5M12 4 h-2 v3 h-2.5 L12 11.5;M12 4 h2 v6 h2.5 L12 14.5M12 4 h-2 v6 h-2.5 L12 14.5" />
+											<animate attributeName="d" calcMode="linear" dur="1.5s" keyTimes="0;0.7;1" repeatCount="indefinite" values="M12 4 h2 v6 h2.5 L12 14.5M12 4 h-2 v6 h-2.5 L12 14.5;M12 4 h2 v3 h2.5 L12 11.5M12 4 h-2 v3 h-2.5 L12 11.5;M12 4 h2 v6 h2.5 L12 14.5M12 4 h-2 v6 h-2.5 L12 14.5" />
 										</path>
 									</g>
 								</svg>
 
 								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-chat-left-dots" viewBox="0 0 16 16">
-									<path
-										d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+									<path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
 									<path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
 								</svg>
 
@@ -465,10 +401,7 @@
 									<path d="M2 3.002a1 1 0 0 1 1.578-.816l7 4.963a1 1 0 0 1 .007 1.628l-7 5.037A1 1 0 0 1 2 13.003zM14 2.5a.5.5 0 1 0-1 0v11a.5.5 0 0 0 1 0z" />
 								</svg>
 								<svg @click="showSongList" xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
-									<path
-										fill-rule="evenodd"
-										d="M17.3 4a1 1 0 0 0-.9.2a1 1 0 0 0-.4.8v8.6c-.6-.3-1.3-.5-2-.5c-2 0-4 1.4-4 3.5c0 2 2 3.4 4 3.4s4-1.3 4-3.4V6.8a3 3 0 0 1 1 2.3c0 .5.4 1 1 1s1-.5 1-1a5 5 0 0 0-1.9-4a6.4 6.4 0 0 0-1.8-1ZM4 5a1 1 0 0 0-1 1c0 .6.4 1 1 1h9c.6 0 1-.4 1-1c0-.5-.4-1-1-1zm0 4a1 1 0 0 0-1 1c0 .6.4 1 1 1h9c.6 0 1-.4 1-1c0-.5-.4-1-1-1zm0 4.1a1 1 0 0 0-1 1c0 .6.4 1 1 1h4c.6 0 1-.4 1-1c0-.5-.4-1-1-1z"
-										clip-rule="evenodd" />
+									<path fill-rule="evenodd" d="M17.3 4a1 1 0 0 0-.9.2a1 1 0 0 0-.4.8v8.6c-.6-.3-1.3-.5-2-.5c-2 0-4 1.4-4 3.5c0 2 2 3.4 4 3.4s4-1.3 4-3.4V6.8a3 3 0 0 1 1 2.3c0 .5.4 1 1 1s1-.5 1-1a5 5 0 0 0-1.9-4a6.4 6.4 0 0 0-1.8-1ZM4 5a1 1 0 0 0-1 1c0 .6.4 1 1 1h9c.6 0 1-.4 1-1c0-.5-.4-1-1-1zm0 4a1 1 0 0 0-1 1c0 .6.4 1 1 1h9c.6 0 1-.4 1-1c0-.5-.4-1-1-1zm0 4.1a1 1 0 0 0-1 1c0 .6.4 1 1 1h4c.6 0 1-.4 1-1c0-.5-.4-1-1-1z" clip-rule="evenodd" />
 								</svg>
 							</div>
 						</div>
@@ -496,7 +429,6 @@ import router from "@/router";
 import { onBeforeRouteLeave, onBeforeRouteUpdate, useRouter } from "vue-router";
 
 let route = useRouter();
-
 let pcOrMobile = ref(true);
 let timer;
 let curTime = ref("");
@@ -506,6 +438,8 @@ const musicFoot = ref();
 let curPlayStyle = 1;
 let lyricMap = new Map([]);
 let i = 0;
+let curLike = true;
+let fillColor = ref("black");
 const returnTop = () => {
 	console.log(document.getElementById("pcCenter").scrollTop);
 	document.getElementById("pcCenter").scrollTo(0, document.body.scrollTop);
@@ -516,29 +450,25 @@ const musicCreatedArr = [
 		routeId: "1",
 		routeName: "/music/year-song-list2023",
 		pageName: "2023年度歌单",
-		listImg:
-			"https://ts1.cn.mm.bing.net/th/id/R-C.f332076b5297d2c9d23d9c9c098386a8?rik=H90anFcwH5tptw&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150512xjn_18%2fgamersky_01origin_01_20155122247407.jpg&ehk=4Og9xNghhN3YtecfhVk%2ft9eW0BMIZq1gk8MsizuQnAo%3d&risl=&pid=ImgRaw&r=0",
+		listImg: "https://ts1.cn.mm.bing.net/th/id/R-C.f332076b5297d2c9d23d9c9c098386a8?rik=H90anFcwH5tptw&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150512xjn_18%2fgamersky_01origin_01_20155122247407.jpg&ehk=4Og9xNghhN3YtecfhVk%2ft9eW0BMIZq1gk8MsizuQnAo%3d&risl=&pid=ImgRaw&r=0",
 	},
 	{
 		routeId: "2",
 		routeName: "/music/best-of-decade",
 		pageName: "十年精选合辑",
-		listImg:
-			"https://ts1.cn.mm.bing.net/th/id/R-C.f332076b5297d2c9d23d9c9c098386a8?rik=H90anFcwH5tptw&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150512xjn_18%2fgamersky_01origin_01_20155122247407.jpg&ehk=4Og9xNghhN3YtecfhVk%2ft9eW0BMIZq1gk8MsizuQnAo%3d&risl=&pid=ImgRaw&r=0",
+		listImg: "https://ts1.cn.mm.bing.net/th/id/R-C.f332076b5297d2c9d23d9c9c098386a8?rik=H90anFcwH5tptw&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150512xjn_18%2fgamersky_01origin_01_20155122247407.jpg&ehk=4Og9xNghhN3YtecfhVk%2ft9eW0BMIZq1gk8MsizuQnAo%3d&risl=&pid=ImgRaw&r=0",
 	},
 	{
 		routeId: "3",
 		routeName: "/music/casual-collection",
 		pageName: "随便收集",
-		listImg:
-			"https://ts1.cn.mm.bing.net/th/id/R-C.f332076b5297d2c9d23d9c9c098386a8?rik=H90anFcwH5tptw&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150512xjn_18%2fgamersky_01origin_01_20155122247407.jpg&ehk=4Og9xNghhN3YtecfhVk%2ft9eW0BMIZq1gk8MsizuQnAo%3d&risl=&pid=ImgRaw&r=0",
+		listImg: "https://ts1.cn.mm.bing.net/th/id/R-C.f332076b5297d2c9d23d9c9c098386a8?rik=H90anFcwH5tptw&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150512xjn_18%2fgamersky_01origin_01_20155122247407.jpg&ehk=4Og9xNghhN3YtecfhVk%2ft9eW0BMIZq1gk8MsizuQnAo%3d&risl=&pid=ImgRaw&r=0",
 	},
 	{
 		routeId: "4",
 		routeName: "/music/learn-list",
 		pageName: "学习专用A歌单",
-		listImg:
-			"https://ts1.cn.mm.bing.net/th/id/R-C.f332076b5297d2c9d23d9c9c098386a8?rik=H90anFcwH5tptw&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150512xjn_18%2fgamersky_01origin_01_20155122247407.jpg&ehk=4Og9xNghhN3YtecfhVk%2ft9eW0BMIZq1gk8MsizuQnAo%3d&risl=&pid=ImgRaw&r=0",
+		listImg: "https://ts1.cn.mm.bing.net/th/id/R-C.f332076b5297d2c9d23d9c9c098386a8?rik=H90anFcwH5tptw&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150512xjn_18%2fgamersky_01origin_01_20155122247407.jpg&ehk=4Og9xNghhN3YtecfhVk%2ft9eW0BMIZq1gk8MsizuQnAo%3d&risl=&pid=ImgRaw&r=0",
 	},
 ];
 const musicCollectedArr = [
@@ -546,29 +476,25 @@ const musicCollectedArr = [
 		routeId: "1",
 		routeName: "/music/xenoblade",
 		pageName: "异度神剑2 BGM 精选",
-		listImg:
-			"https://ts1.cn.mm.bing.net/th/id/R-C.f332076b5297d2c9d23d9c9c098386a8?rik=H90anFcwH5tptw&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150512xjn_18%2fgamersky_01origin_01_20155122247407.jpg&ehk=4Og9xNghhN3YtecfhVk%2ft9eW0BMIZq1gk8MsizuQnAo%3d&risl=&pid=ImgRaw&r=0",
+		listImg: "https://ts1.cn.mm.bing.net/th/id/R-C.f332076b5297d2c9d23d9c9c098386a8?rik=H90anFcwH5tptw&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150512xjn_18%2fgamersky_01origin_01_20155122247407.jpg&ehk=4Og9xNghhN3YtecfhVk%2ft9eW0BMIZq1gk8MsizuQnAo%3d&risl=&pid=ImgRaw&r=0",
 	},
 	{
 		routeId: "2",
 		routeName: "/music/death-stranding",
 		pageName: "死亡搁浅 |《一段歌单的旅程》",
-		listImg:
-			"https://ts1.cn.mm.bing.net/th/id/R-C.f332076b5297d2c9d23d9c9c098386a8?rik=H90anFcwH5tptw&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150512xjn_18%2fgamersky_01origin_01_20155122247407.jpg&ehk=4Og9xNghhN3YtecfhVk%2ft9eW0BMIZq1gk8MsizuQnAo%3d&risl=&pid=ImgRaw&r=0",
+		listImg: "https://ts1.cn.mm.bing.net/th/id/R-C.f332076b5297d2c9d23d9c9c098386a8?rik=H90anFcwH5tptw&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150512xjn_18%2fgamersky_01origin_01_20155122247407.jpg&ehk=4Og9xNghhN3YtecfhVk%2ft9eW0BMIZq1gk8MsizuQnAo%3d&risl=&pid=ImgRaw&r=0",
 	},
 	{
 		routeId: "3",
 		routeName: "/music/dying-light2",
 		pageName: "消逝的光芒2 坚守人性 Dying Light2",
-		listImg:
-			"https://ts1.cn.mm.bing.net/th/id/R-C.f332076b5297d2c9d23d9c9c098386a8?rik=H90anFcwH5tptw&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150512xjn_18%2fgamersky_01origin_01_20155122247407.jpg&ehk=4Og9xNghhN3YtecfhVk%2ft9eW0BMIZq1gk8MsizuQnAo%3d&risl=&pid=ImgRaw&r=0",
+		listImg: "https://ts1.cn.mm.bing.net/th/id/R-C.f332076b5297d2c9d23d9c9c098386a8?rik=H90anFcwH5tptw&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150512xjn_18%2fgamersky_01origin_01_20155122247407.jpg&ehk=4Og9xNghhN3YtecfhVk%2ft9eW0BMIZq1gk8MsizuQnAo%3d&risl=&pid=ImgRaw&r=0",
 	},
 	{
 		routeId: "4",
 		routeName: "/music/gris",
 		pageName: "GRIS | BGM",
-		listImg:
-			"https://ts1.cn.mm.bing.net/th/id/R-C.f332076b5297d2c9d23d9c9c098386a8?rik=H90anFcwH5tptw&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150512xjn_18%2fgamersky_01origin_01_20155122247407.jpg&ehk=4Og9xNghhN3YtecfhVk%2ft9eW0BMIZq1gk8MsizuQnAo%3d&risl=&pid=ImgRaw&r=0",
+		listImg: "https://ts1.cn.mm.bing.net/th/id/R-C.f332076b5297d2c9d23d9c9c098386a8?rik=H90anFcwH5tptw&riu=http%3a%2f%2fimg1.gamersky.com%2fimage2015%2f05%2f20150512xjn_18%2fgamersky_01origin_01_20155122247407.jpg&ehk=4Og9xNghhN3YtecfhVk%2ft9eW0BMIZq1gk8MsizuQnAo%3d&risl=&pid=ImgRaw&r=0",
 	},
 ];
 const musicRouteArr = [
@@ -588,8 +514,7 @@ const musicRouteArr = [
 		routeId: "3",
 		routeName: "/music/boke",
 		pageName: "播客",
-		pathD:
-			"M14 20q-1.65 0-2.825-1.175T10 16q0-1.65 1.175-2.825T14 12q.575 0 1.063.138t.937.412V4h6v3h-4v9q0 1.65-1.175 2.825T14 20M2 16q0-2.475.95-4.663t2.575-3.812Q7.15 5.9 9.338 4.95T14 4v2q-2.05 0-3.875.788t-3.187 2.15q-1.363 1.362-2.15 3.174T4 16zm4 0q0-1.65.638-3.113t1.725-2.55Q9.45 9.25 10.9 8.625T14 8v2q-2.5 0-4.25 1.75T8 16z",
+		pathD: "M14 20q-1.65 0-2.825-1.175T10 16q0-1.65 1.175-2.825T14 12q.575 0 1.063.138t.937.412V4h6v3h-4v9q0 1.65-1.175 2.825T14 20M2 16q0-2.475.95-4.663t2.575-3.812Q7.15 5.9 9.338 4.95T14 4v2q-2.05 0-3.875.788t-3.187 2.15q-1.363 1.362-2.15 3.174T4 16zm4 0q0-1.65.638-3.113t1.725-2.55Q9.45 9.25 10.9 8.625T14 8v2q-2.5 0-4.25 1.75T8 16z",
 	},
 	// {
 	// 	routeId: "4",
@@ -620,15 +545,13 @@ const musicRouteArr = [
 		routeId: "8",
 		routeName: "/music/my-boke",
 		pageName: "我的播客",
-		pathD:
-			"M8 19.8c-4.564-.927-8-4.962-8-9.8C0 4.477 4.477 0 10 0s10 4.477 10 10c0 4.838-3.436 8.873-8 9.8v-2.052a8 8 0 1 0-4 0zm0-4.141a6 6 0 1 1 4 0v-2.194a4 4 0 1 0-4 0zm3-3.927V20H9v-8.268a2 2 0 1 1 2 0",
+		pathD: "M8 19.8c-4.564-.927-8-4.962-8-9.8C0 4.477 4.477 0 10 0s10 4.477 10 10c0 4.838-3.436 8.873-8 9.8v-2.052a8 8 0 1 0-4 0zm0-4.141a6 6 0 1 1 4 0v-2.194a4 4 0 1 0-4 0zm3-3.927V20H9v-8.268a2 2 0 1 1 2 0",
 	},
 	{
 		routeId: "9",
 		routeName: "/music/my-collection",
 		pageName: "我的收藏",
-		pathD:
-			"m7.625 6.4l2.8-3.625q.3-.4.713-.587T12 2q.45 0 .863.188t.712.587l2.8 3.625l4.25 1.425q.65.2 1.025.738t.375 1.187q0 .3-.088.6t-.287.575l-2.75 3.9l.1 4.1q.025.875-.575 1.475t-1.4.6q-.05 0-.55-.075L12 19.675l-4.475 1.25q-.125.05-.275.063T6.975 21q-.8 0-1.4-.6T5 18.925l.1-4.125l-2.725-3.875q-.2-.275-.288-.575T2 9.75q0-.625.363-1.162t1.012-.763z",
+		pathD: "m7.625 6.4l2.8-3.625q.3-.4.713-.587T12 2q.45 0 .863.188t.712.587l2.8 3.625l4.25 1.425q.65.2 1.025.738t.375 1.187q0 .3-.088.6t-.287.575l-2.75 3.9l.1 4.1q.025.875-.575 1.475t-1.4.6q-.05 0-.55-.075L12 19.675l-4.475 1.25q-.125.05-.275.063T6.975 21q-.8 0-1.4-.6T5 18.925l.1-4.125l-2.725-3.875q-.2-.275-.288-.575T2 9.75q0-.625.363-1.162t1.012-.763z",
 	},
 	{
 		routeId: "10",
@@ -640,15 +563,13 @@ const musicRouteArr = [
 		routeId: "11",
 		routeName: "/music/local-music",
 		pageName: "本地音乐",
-		pathD:
-			"M18.405 2.799c-.112-.44-.656-.799-1.21-.799H2.805c-.555 0-1.099.359-1.21.799L1.394 4h17.211zM19.412 5H.587a.58.58 0 0 0-.577.635l.923 11.669a.77.77 0 0 0 .766.696H18.3a.77.77 0 0 0 .766-.696l.923-11.669A.58.58 0 0 0 19.412 5m-7.47 7.521c-.128.265-.258.279-.202 0c.146-.721.047-2.269-1.043-2.441v3.294c0 .674-.311 1.262-1.136 1.528c-.802.256-1.699-.011-1.908-.586c-.21-.576.261-1.276 1.052-1.564c.442-.161.954-.203 1.299-.07V8h.694c-.001 1.633 2.818 1.275 1.244 4.521",
+		pathD: "M18.405 2.799c-.112-.44-.656-.799-1.21-.799H2.805c-.555 0-1.099.359-1.21.799L1.394 4h17.211zM19.412 5H.587a.58.58 0 0 0-.577.635l.923 11.669a.77.77 0 0 0 .766.696H18.3a.77.77 0 0 0 .766-.696l.923-11.669A.58.58 0 0 0 19.412 5m-7.47 7.521c-.128.265-.258.279-.202 0c.146-.721.047-2.269-1.043-2.441v3.294c0 .674-.311 1.262-1.136 1.528c-.802.256-1.699-.011-1.908-.586c-.21-.576.261-1.276 1.052-1.564c.442-.161.954-.203 1.299-.07V8h.694c-.001 1.633 2.818 1.275 1.244 4.521",
 	},
 	{
 		routeId: "12",
 		routeName: "/music/music-cloud-disk",
 		pageName: "我的音乐云盘",
-		pathD:
-			"M19 16h-3v-2h2v-1h1v-2h-1v-1h-4V9h1V6h-1V5h-1V4H9v1H8v2h1v1H6v1H4v1H3v3h1v1h2v2H3v-1H2v-1H1V9h1V8h1V7h2V6h1V4h1V3h1V2h6v1h1v1h1v1h1v3h2v1h1v1h1v4h-1v1h-1m-7 5h-2v-4H7v-1h1v-1h1v-1h1v-1h2v1h1v1h1v1h1v1h-3Z",
+		pathD: "M19 16h-3v-2h2v-1h1v-2h-1v-1h-4V9h1V6h-1V5h-1V4H9v1H8v2h1v1H6v1H4v1H3v3h1v1h2v2H3v-1H2v-1H1V9h1V8h1V7h2V6h1V4h1V3h1V2h6v1h1v1h1v1h1v3h2v1h1v1h1v4h-1v1h-1m-7 5h-2v-4H7v-1h1v-1h1v-1h1v-1h2v1h1v1h1v1h1v1h-3Z",
 	},
 ];
 
@@ -770,8 +691,7 @@ const playSong = () => {
 		audio.style.boxShadow = "-1px 1px #000000, -2px 2px #000000, -3px 3px #000000, -4px 4px #000000, -5px 5px #3e3e3e, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #ffffff,0 0 1.5rem 3px #000";
 		audio.style.transform = "translateX(8px) translateY(-8px)";
 
-		document.querySelector(".music-foot div:nth-child(3) svg:nth-child(3)").style.boxShadow =
-			"-1px 1px #ff2600, -2px 2px #000000, -3px 3px #ffee05, -4px 4px #000000, -5px 5px #81abff, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #ffffff, -10px 5px 1.5rem 3px #000";
+		document.querySelector(".music-foot div:nth-child(3) svg:nth-child(3)").style.boxShadow = "-1px 1px #ff2600, -2px 2px #000000, -3px 3px #ffee05, -4px 4px #000000, -5px 5px #81abff, -6px 6px #3e3e3e, -7px 7px #3e3e3e, -8px 8px #ffffff, -10px 5px 1.5rem 3px #000";
 		document.querySelector(".music-foot div:nth-child(3) svg:nth-child(3)").style.transform = "translateX(8px) translateY(-8px)";
 		document.querySelector(".music-foot div:nth-child(3) svg:nth-child(3)").style.borderRadius = "50%";
 	} else if (curPlayState == false) {
@@ -801,8 +721,7 @@ const nextAndPreSong = (type) => {
 	}
 	changeSong(songArr[acitveSongIdx.value], acitveSongIdx.value);
 };
-let curLike = true;
-let fillColor = ref("black");
+
 const changeLike = (e, index) => {
 	if (songArr[index].flag == true) {
 		e.target.setAttribute("fill", "red");
@@ -834,17 +753,12 @@ const changePlayStyle = () => {
 			break;
 		//随机播放
 		case 3:
-			(document.querySelector(".music-foot  audio").loop = false),
-				curStyle.setAttribute("d", "M18 6.01L14 9V7h-4l-5 8H2v-2h2l5-8h5V3zM2 5h3l1.15 2.17l-1.12 1.8L4 7H2zm16 9.01L14 17v-2H9l-1.15-2.17l1.12-1.8L10 13h4v-2z");
+			(document.querySelector(".music-foot  audio").loop = false), curStyle.setAttribute("d", "M18 6.01L14 9V7h-4l-5 8H2v-2h2l5-8h5V3zM2 5h3l1.15 2.17l-1.12 1.8L4 7H2zm16 9.01L14 17v-2H9l-1.15-2.17l1.12-1.8L10 13h4v-2z");
 
 			break;
 		//全播放一次
 		case 4:
-			(document.querySelector(".music-foot  audio").loop = false),
-				curStyle.setAttribute(
-					"d",
-					"M2.25 6A.75.75 0 0 1 3 5.25h18a.75.75 0 0 1 0 1.5H3A.75.75 0 0 1 2.25 6m0 4A.75.75 0 0 1 3 9.25h18a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75m0 4a.75.75 0 0 1 .75-.75h8a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75m15.25-.75a.75.75 0 0 1 .75.75v4.19l1.22-1.22a.75.75 0 1 1 1.06 1.06l-2.5 2.5a.75.75 0 0 1-1.06 0l-2.5-2.5a.75.75 0 1 1 1.06-1.06l1.22 1.22V14a.75.75 0 0 1 .75-.75M2.25 18a.75.75 0 0 1 .75-.75h8a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75"
-				);
+			(document.querySelector(".music-foot  audio").loop = false), curStyle.setAttribute("d", "M2.25 6A.75.75 0 0 1 3 5.25h18a.75.75 0 0 1 0 1.5H3A.75.75 0 0 1 2.25 6m0 4A.75.75 0 0 1 3 9.25h18a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75m0 4a.75.75 0 0 1 .75-.75h8a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75m15.25-.75a.75.75 0 0 1 .75.75v4.19l1.22-1.22a.75.75 0 1 1 1.06 1.06l-2.5 2.5a.75.75 0 0 1-1.06 0l-2.5-2.5a.75.75 0 1 1 1.06-1.06l1.22 1.22V14a.75.75 0 0 1 .75-.75M2.25 18a.75.75 0 0 1 .75-.75h8a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75");
 			break;
 	}
 };
@@ -941,6 +855,8 @@ onBeforeMount(() => {
 });
 </script>
 
+
+
 <style scoped lang="scss">
 * {
 	margin: 0;
@@ -989,8 +905,6 @@ onBeforeMount(() => {
 		grid-column: 1 / span 1;
 		grid-row: 1 / span 1;
 		background: linear-gradient(45deg, #083476, #000000);
-		// border-right: 1px solid #fff;
-		// box-shadow: 0 0 10px 3px #ffffff;
 		h4:hover {
 			transition: 0.5s;
 			color: #ff0101;
@@ -1020,7 +934,6 @@ onBeforeMount(() => {
 			justify-content: flex-start;
 			flex-direction: column;
 			align-items: center;
-
 			scrollbar-width: none; /* Firefox */
 			-ms-overflow-style: none; /* IE 10+ */
 			&::-webkit-scrollbar {
@@ -1148,7 +1061,6 @@ onBeforeMount(() => {
 }
 
 //   移动端
-
 .music-content {
 	display: flex;
 	flex-direction: column;
@@ -1208,7 +1120,6 @@ onBeforeMount(() => {
 			box-shadow: 0 -2px 0.1rem 1px rgb(0, 0, 0);
 		}
 	}
-
 	svg {
 		background: transparent;
 		border: none;
@@ -1229,7 +1140,6 @@ onBeforeMount(() => {
 	background-size: 100%;
 	height: 72.3%;
 	position: relative;
-
 	div:nth-child(1) {
 		position: absolute;
 		width: 7.3rem;
@@ -1268,7 +1178,6 @@ onBeforeMount(() => {
 		background: rgb(245, 241, 241);
 		transition: 1s;
 	}
-
 	div:nth-child(3) {
 		display: flex;
 		align-items: center;
@@ -1344,554 +1253,6 @@ onBeforeMount(() => {
 	width: 100%;
 	height: 100vh;
 	background: #000;
-}
-.phone {
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	transform: rotateY(-30deg) skewX(30deg);
-	transition: 1s;
-}
-@media screen and (max-width: 1400px) {
-	.phone {
-		transform: translate(-50%, -50%) rotate(-30deg) skewX(30deg) scale(0.8);
-	}
-}
-.phone-back {
-	position: absolute;
-	top: -3px;
-	transform: translate(-50%, -50%);
-	height: 734px;
-	width: 430px;
-	background-image: linear-gradient(to bottom, #3a3b3f 70%, #1d1d1f);
-	border-radius: 74px 40px 84px 50px;
-	box-shadow: -26px 8px 8px -10px rgba(0, 0, 0, 0.3), -6px 6px 6px 0 rgba(0, 0, 0, 0.6), -30px 14px 10px -10px rgba(0, 0, 0, 0.5), -20px 40px 8px 0 rgba(0, 0, 0, 0.1),
-		-20px 30px 8px 0 rgba(0, 0, 0, 0.1), inset 20px 0 15px -6px rgba(0, 0, 0, 0.6), inset 2px 0 4px -2px rgba(0, 0, 0, 0.6), inset 2px 0 1px -2px rgba(255, 255, 255, 0.1),
-		inset 0 -15px 10px -10px rgba(255, 255, 255, 0.15);
-}
-.phone-back:before {
-	content: "";
-	display: block;
-	height: 300px;
-	width: 100px;
-	position: absolute;
-	background-color: #fff;
-	left: 16px;
-	bottom: 40px;
-	border-radius: 20px;
-	filter: blur(5px);
-	opacity: 0.1;
-	transform: rotate(4deg);
-}
-.phone-back:after {
-	content: "";
-	display: block;
-	height: 300px;
-	width: 100px;
-	position: absolute;
-	background-color: #fff;
-	left: 26px;
-	bottom: 40px;
-	border-radius: 20px;
-	filter: blur(4px);
-	opacity: 0.25;
-	transform: rotate(2deg);
-}
-.phone-screen {
-	position: absolute;
-	top: -16px;
-	left: 14px;
-	transform: translate(-50%, -50%);
-	height: 710px;
-	width: 400px;
-	background-color: #000;
-	border-radius: 48px 40px 52px 45px;
-	box-shadow: -2px 0 0px -1px rgba(255, 255, 255, 0.4), -1px 3px 3px -3px rgba(255, 255, 255, 0.7);
-}
-.phone-display {
-	position: absolute;
-	z-index: 1;
-	top: -23px;
-	left: 20px;
-	transform: translate(-50%, -50%);
-	height: 690px;
-	width: 378px;
-	background: linear-gradient(to bottom, #b8d3e6, #b5c7d3);
-	border-radius: 45px 37px 41px 41px;
-	#personMine {
-		position: absolute;
-		left: 5%;
-		top: 5%;
-	}
-}
-.phone-notch {
-	position: absolute;
-	top: -1px;
-	left: 50%;
-	transform: translate(-50%);
-	width: 210px;
-	background-color: #131313;
-	border-top: 6px solid #000;
-	height: 21px;
-	z-index: 3;
-	border-radius: 0 0 20px 20px;
-}
-.phone-notch:after {
-	content: "";
-	display: block;
-	height: 12px;
-	width: 12px;
-	background-color: transparent;
-	position: absolute;
-	left: -12px;
-	top: -5px;
-	border-radius: 50%;
-	box-shadow: 5px -5px 0 -3px #000;
-}
-.phone-notch:before {
-	content: "";
-	display: block;
-	height: 12px;
-	width: 12px;
-	background-color: transparent;
-	position: absolute;
-	right: -12px;
-	top: -5px;
-	border-radius: 50%;
-	box-shadow: -4px -4px 0 -3px #000;
-}
-.phone-speaker {
-	position: absolute;
-	top: 6px;
-	width: 58px;
-	height: 6px;
-	border-radius: 20px;
-	background-color: #2b2b2b;
-	overflow: hidden;
-	box-shadow: 0 0 0 1px #363637, inset -3px 3px 1px 0px #000, inset -3px 4px 0px -1px rgba(255, 255, 255, 0.5);
-	left: 50%;
-	transform: translateX(-50%);
-}
-.phone-speaker:after {
-	content: "";
-	display: block;
-	height: 4px;
-	width: 4px;
-	background-color: #87888c;
-	position: absolute;
-	right: -1px;
-	border-radius: 50%;
-	top: -1px;
-}
-.phone-speaker:before {
-	content: "";
-	display: block;
-	height: 4px;
-	width: 4px;
-	background-color: #898a8e;
-	position: absolute;
-	right: -2px;
-	border-radius: 50%;
-	top: 4px;
-}
-.phone-left-side {
-	position: absolute;
-	left: 0;
-	top: 60px;
-	width: 30px;
-	height: 100%;
-}
-.phone-left-side .phone-antena {
-	position: absolute;
-	height: 20px;
-	width: 50px;
-	left: -5px;
-	top: 10px;
-	border-radius: 50%;
-	transform: rotate(-40deg) skewX(20deg);
-	background-color: transparent;
-	box-shadow: 0px -2px 1px -2px #000;
-}
-.phone-left-side .phone-antena.bottom {
-	top: auto;
-	bottom: 128px;
-}
-.phone-left-side .phone-antena:after {
-	content: "";
-	display: block;
-	height: 20px;
-	width: 50px;
-	position: absolute;
-	transform: rotate(-2deg);
-	left: -5px;
-	top: 3px;
-	border-radius: 50%;
-	background-color: transparent;
-	box-shadow: 0px -2px 1px -2px #000;
-}
-.phone-button {
-	position: absolute;
-	top: 100px;
-	left: 4px;
-	height: 47px;
-	width: 12px;
-	background-color: #010101;
-	border-radius: 30px;
-	transform: skewY(-40deg);
-	box-shadow: -32px -16px 10px 0 rgba(0, 0, 0, 0.4), -4px 0 4px 0 rgba(0, 0, 0, 0.4);
-}
-.phone-button.bottom {
-	top: 160px;
-}
-.phone-button.top {
-	top: 48px;
-	height: 29px;
-	width: 14px;
-	left: 2px;
-	border-radius: 10px 10px 10px 3px;
-	box-shadow: inset 2px 0 0 -1px rgba(255, 255, 255, 0.25);
-}
-.phone-button.top:after {
-	height: 27px;
-	width: 8px;
-	left: 4px;
-	top: 0px;
-}
-.phone-button.top:before {
-	height: 28px;
-	width: 8px;
-	left: 6px;
-	top: 0px;
-	box-shadow: 1px 0 0 0 rgba(0, 0, 0, 0.4);
-}
-.phone-button:before {
-	content: "";
-	display: block;
-	position: absolute;
-	height: 45px;
-	width: 10px;
-	background-image: linear-gradient(to bottom, #6a6b6f 85%, #0b0b0b);
-	border-radius: 20px;
-}
-.phone-button:after {
-	content: "";
-	display: block;
-	position: absolute;
-	left: -2px;
-	top: -1px;
-	height: 44px;
-	width: 10px;
-	background-color: #2d2d2f;
-	border-radius: 20px;
-	box-shadow: inset -1px -1px 0 -1px rgba(255, 255, 255, 0.6);
-}
-.phone-bottom {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-}
-.phone-bottom .bottom-speaker {
-	position: absolute;
-	display: flex;
-	left: calc(50% - 120px);
-	bottom: 6px;
-	transform: skewX(-50deg);
-}
-.phone-bottom .bottom-speaker.right {
-	left: calc(50% + 45px);
-}
-.phone-bottom .bottom-speaker div {
-	height: 6px;
-	width: 6px;
-	background-color: #212121;
-	box-shadow: inset -4px -3px 2px -2px #000, 1px -1px 0 -1px rgba(255, 255, 255, 0.5);
-	margin: 0 3px;
-	border-radius: 50%;
-	position: relative;
-	overflow: hidden;
-}
-.phone-bottom .bottom-speaker div:after {
-	content: "";
-	display: block;
-	height: 3px;
-	width: 3px;
-	background-color: #fff;
-	border-radius: 50%;
-	position: absolute;
-	bottom: -1px;
-	left: 3px;
-	opacity: 0.4;
-}
-.phone-bottom .phone-screw {
-	position: absolute;
-	bottom: 5px;
-	left: calc(50% - 38px);
-	height: 9px;
-	width: 9px;
-	background-image: linear-gradient(to right, #1a1a1c 30%, #a1a2a7 60%, #1a1a1c 80%);
-	border-radius: 50%;
-	transform: translateX(-50%) skewX(-50deg);
-}
-.phone-bottom .phone-screw.right {
-	left: calc(50% + 36px);
-}
-.phone-bottom .phone-screw div {
-	height: 6px;
-	width: 6px;
-	border-radius: 50%;
-	background-color: #252527;
-	box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.9), inset -2px 1px 1px -1px #000;
-	position: relative;
-}
-.phone-bottom .phone-screw div:after {
-	content: "";
-	display: block;
-	height: 4px;
-	width: 4px;
-	background-color: #151515;
-	transform: rotate(45deg);
-	position: absolute;
-	top: 1px;
-	box-shadow: inset -1px -1px 0 0px rgba(255, 255, 255, 0.6);
-}
-.phone-bottom .phone-charger {
-	position: absolute;
-	left: 50%;
-	bottom: 2px;
-	background-image: linear-gradient(to right, #121214 5%, #434446 20%, #434446 60%, #7a7b80 75%, #1b1b1d 90%);
-	transform: translateX(-50%) skewX(-50deg);
-	height: 14px;
-	width: 48px;
-	overflow: hidden;
-	border-radius: 15px 16px 24px 20px;
-	box-shadow: 1px 1px 1px -1px rgba(255, 255, 255, 0.4), inset -2px -2px 0 -1px #0e0e0e, inset -3px -3px 0 -1px #252527, inset 3px 3px 0 -1px #050505;
-}
-.phone-bottom .phone-charger:after {
-	content: "";
-	display: block;
-	height: 10px;
-	width: 42px;
-	background-color: #050505;
-	border-radius: 20px 8px 16px 10px;
-	box-shadow: 1px 1px 0 -1px rgba(255, 255, 255, 0.4);
-}
-.phone-bottom .phone-antena {
-	position: absolute;
-	height: 20px;
-	width: 50px;
-	bottom: 8px;
-	left: 60px;
-	border-radius: 40%;
-	opacity: 0.7;
-	transform: rotate(-45deg) skewX(20deg) scaleY(-1);
-	background-color: transparent;
-	box-shadow: 0px -2px 1px -2px #000;
-}
-.phone-bottom .phone-antena.right {
-	left: auto;
-	right: 70px;
-	box-shadow: 0px -2px 1px -2px #000, 19px -2px 0 -2px rgba(255, 255, 255, 0.4);
-}
-.phone-bottom .phone-antena.right:after {
-	box-shadow: 0px -2px 1px -2px #000, 19px -2px 0 -2px rgba(255, 255, 255, 0.4);
-}
-.phone-bottom .phone-antena:after {
-	content: "";
-	display: block;
-	height: 20px;
-	width: 50px;
-	position: absolute;
-	transform: rotate(-2deg);
-	left: -3px;
-	top: 3px;
-	border-radius: 40%;
-	background-color: transparent;
-	box-shadow: 0px -2px 1px -2px #000;
-}
-.phone-reflections {
-	pointer-events: none;
-	position: absolute;
-	top: -17px;
-	left: 15px;
-	transform: translate(-50%, -50%);
-	height: 709px;
-	width: 399px;
-	border-radius: 48px 40px 52px 45px;
-	background-color: transparent;
-
-	overflow: hidden;
-}
-.phone-reflections .reflection-1 {
-	position: absolute;
-	height: 200%;
-	width: 120%;
-	background-color: #fff;
-	opacity: 0.1;
-	left: -320px;
-	top: -200px;
-	transform: rotate(32deg);
-	z-index: 10;
-}
-.phone-reflections .reflection-2,
-.phone-reflections .reflection-3 {
-	position: absolute;
-	height: 100%;
-	left: -94px;
-	width: 100px;
-	border-radius: 100px;
-	background-color: #000;
-	top: calc(50% + 14px);
-	transform: translateY(-50%);
-	z-index: 11;
-}
-.phone-reflections .reflection-3 {
-	background: #6d6c71;
-	left: -8px;
-	height: 60%;
-	width: 10px;
-	opacity: 0.6;
-	top: 70%;
-}
-.phone-reflections .reflection-4 {
-	position: absolute;
-	height: 60%;
-	top: 0;
-	background-color: #67686c;
-	width: 16px;
-}
-.phone-reflections .reflection-4:before {
-	content: "";
-	display: block;
-	position: absolute;
-	height: 100px;
-	width: 100px;
-	background-color: transparent;
-	left: 16px;
-	top: 4px;
-	border-radius: 44px 40px 0 0;
-	box-shadow: -20px 0px 0 0 #67686c;
-}
-.phone-reflections .reflection-4:after {
-	content: "";
-	display: block;
-	height: 80px;
-	width: 80px;
-	background-color: transparent;
-	position: absolute;
-	border-radius: 60px 0 0 0;
-	left: 0px;
-	top: -1px;
-	transform: rotate(15deg);
-	box-shadow: -25px -3px 2px -8px #000;
-}
-.phone-reflections .reflection-5 {
-	position: absolute;
-	height: 50%;
-	bottom: 0;
-	left: 4px;
-	width: 12px;
-	background-color: #000;
-	border-radius: 50%;
-}
-.phone-reflections .reflection-6 {
-	position: absolute;
-	width: 80px;
-	height: 20px;
-	background-color: #000;
-	border-radius: 50%;
-	transform: rotate(40deg);
-	bottom: -4px;
-	left: -14px;
-	z-index: 12;
-}
-.phone-reflections .reflection-6:after {
-	content: "";
-	display: block;
-	position: absolute;
-	height: 100px;
-	width: 20px;
-	background-color: #000;
-	right: -17px;
-	top: -78px;
-	border-radius: 40%;
-	transform: rotate(50deg);
-}
-.phone-reflections .reflection-6:before {
-	content: "";
-	display: block;
-	position: absolute;
-	height: 50px;
-	width: 50px;
-	background-color: transparent;
-	top: -51px;
-	left: 7px;
-	transform: rotate(-20deg);
-	border-radius: 40%;
-	box-shadow: 4px 15px 1px -10px #000;
-}
-.reflection-7 {
-	position: absolute;
-	bottom: -4px;
-	left: 10px;
-	height: 20px;
-	width: 40px;
-	border-radius: 20px 0px 6px 10px;
-	transform: skewX(60deg) skewY(-10deg) scaleY(-1) scaleX(-1) scale(0.8);
-	background-color: #5c5d61;
-	z-index: 13;
-}
-.reflection-7:after {
-	content: "";
-	display: block;
-	height: 20px;
-	width: 30px;
-	background-color: #5c5d61;
-	border-radius: 50%;
-	position: absolute;
-	top: -3px;
-	right: 6px;
-	transform: rotate(40deg) skewX(-54deg) skewY(47deg) scaleY(1) scaleX(1);
-}
-.reflection-7:before {
-	content: "";
-	display: block;
-	position: absolute;
-	height: 18px;
-	width: 15px;
-	background-color: #5c5d61;
-	left: 6px;
-	bottom: -6px;
-	border-radius: 2px;
-	transform: rotate(253deg) skewX(10deg);
-}
-
-/* 顶部状态栏、时间、电量等 */
-.notifications-bar .time {
-	color: #000000;
-	font-size: 13px;
-	width: auto;
-	height: auto;
-	position: absolute;
-	left: 30px;
-	top: 10px;
-}
-.notifications-bar .range {
-	position: absolute;
-	right: 65px;
-	top: 5px;
-}
-
-.notifications-bar .wifi {
-	position: absolute;
-	right: 42px;
-	top: 5px;
-}
-
-.battery {
-	color: #ffffff;
-	position: absolute;
-	top: 5px;
-	right: 20px;
 }
 
 #songList {
@@ -2013,35 +1374,8 @@ onBeforeMount(() => {
 		}
 	}
 }
+</style>
 
-/* 底部按钮 */
-.bottom-icons {
-	display: flex;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-}
-.bottom-icons > div {
-	flex: 1;
-	width: 6px;
-	height: 50px;
-	display: flex;
-	color: #000000;
-	font-size: 1.2rem;
-	font-weight: bolder;
-	border-radius: 5px;
-	align-items: center;
-	justify-content: center;
-	border-top: 1px solid transparent;
-	border-bottom: 1px solid transparent;
-}
-.bottom-icons > div:nth-of-type(2) {
-	font-size: 1.5rem;
-}
-.bottom-icons > div:hover {
-	cursor: pointer;
-	transition: 1s;
-	box-shadow: inset 0 -10px 10px -5px rgba(0, 0, 0, 0.968);
-	text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0), 0 0 15px rgb(4, 83, 255), 0 0 20px rgb(255, 3, 3);
-}
+<style scoped lang="scss">
+	@import "@/assets/css/mobileMusic.css"
 </style>

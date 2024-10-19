@@ -1,7 +1,5 @@
 <template>
 	<div>
-		<!-- 主页面加载页 -->
-		<!-- <PageChange></PageChange> -->
 		<!-- 太阳 -->
 		<button id="tabState"></button>
 
@@ -21,8 +19,8 @@
 		<!-- 轨迹星图 -->
 		<div class="trajectory">
 			<template v-for="value in routeArr" :key="value.routeId">
-				<p>
-					<router-link :to="value.routeName" @click="showTab()"></router-link>
+				<p @click="jumpToRouter(value.routeName)" @mouseover="mouseOverPages(value.routeName)" @mouseout="curPageName = ''">
+					<a href="javascript:void(0);"></a>
 				</p>
 			</template>
 		</div>
@@ -43,47 +41,32 @@ import { useRouter } from "vue-router";
 
 let router = useRouter();
 let curPageName = ref("");
+let timer;
 const routeArr = [
 	{ routeId: "1", routeName: "/landscape", pageName: "碧落录" },
 	{ routeId: "2", routeName: "/game", pageName: "礼乐庭" },
-	{ routeId: "3", routeName: "/aphorism", pageName: "登霞志" },
+	{ routeId: "3", routeName: "/aphorism", pageName: "千金竹" },
 	{ routeId: "4", routeName: "/share_video", pageName: "伯牙琴" },
-	{ routeId: "5", routeName: "/docu", pageName: "千金竹" },
+	{ routeId: "5", routeName: "/docu", pageName: "霞珠算" },
 	{ routeId: "6", routeName: "/music", pageName: "紫玉筝" },
 	{ routeId: "7", routeName: "/like", pageName: "崇文阁" },
 ];
+const jumpToRouter = (route) => {
+	showTab();
+	router.push(route);
+};
 const showTab = () => {
 	document.getElementById("tabContainer").style.display = "block";
 };
-let timer;
+const mouseOverPages = (add) => {
+	let obj = routeArr.find((value) => {
+		return value.routeName === add;
+	});
+	curPageName.value = obj.pageName;
+};
+
 // 生命周期钩子
 onMounted(() => {
-	// 根据选中的行星显示当前行星的用途和内容
-	let roundArr = document.querySelectorAll(".trajectory")[0].childNodes;
-	roundArr.forEach((item) => {
-		item.addEventListener("mouseover", () => {
-			let hrefString = item.childNodes[0].href.toString();
-			let curHref = hrefString.substring(hrefString.lastIndexOf("/"));
-			//嵌套数组检索，检查嵌套数组A中是否有B数据。
-			// ES6方法：Array.find((value,index,arr)=>{ return 条件表达式;})
-			// value：每一次迭代查找的数组元素。
-			// index：每一次迭代查找的数组元素索引。
-			// arr：被查找的数组。
-			// 返回符合条件表达式的第一个value
-			// Array.findIndex((value,index,arr)=>{ return 条件表达式;})
-
-			let obj = routeArr.find((value, index, arr) => {
-				// 如果B元素的和嵌套数组A中某个子元素的孙元素routeName相等，那么就返回嵌套数组A的该子元素Object并结束find检索，最后得到一个对象（子对象）
-				return value.routeName === curHref;
-			});
-
-			//而找到这个对象obj后，我们只取其中的pageName属性的值 用于更新curPageName
-			curPageName.value = obj.pageName;
-		});
-		item.addEventListener("mouseout", () => {
-			curPageName.value = "";
-		});
-	});
 	// 页面路由跳转后切换场景
 	if (router.currentRoute.value.path == "/") {
 		router.push("/");
@@ -103,7 +86,7 @@ onMounted(() => {
 	const days = ["星期天", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
 	const months = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
 
-	let time, month, day, date, hours, hoursForClock, minutes, seconds, ampm;
+	let time, month, day, date, hours, minutes, seconds, ampm;
 	function setTime() {
 		time = new Date();
 		month = time.getMonth();
@@ -132,10 +115,8 @@ onBeforeMount(() => {
 });
 </script>
 
-
-
 <style scoped lang="scss">
-// 时钟 
+// 时钟
 .clock-container {
 	position: absolute;
 	width: 98%;
@@ -143,6 +124,8 @@ onBeforeMount(() => {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	color: #ffffff;
+
 	.needle {
 		background-image: linear-gradient(to bottom, #519bdc, #ffffff);
 		box-shadow: 0 0 1rem 5px rgb(42, 187, 244);
@@ -180,6 +163,7 @@ onBeforeMount(() => {
 		color: #000;
 		top: 0%;
 		left: 40%;
+		animation: changeColor 5s linear infinite;
 	}
 
 	.date {
@@ -190,6 +174,20 @@ onBeforeMount(() => {
 		font-size: 1.5rem;
 		font-weight: bolder;
 		letter-spacing: 0.3px;
+		animation: changeColor 5s linear infinite;
+	}
+
+	@keyframes changeColor {
+		0% {
+			color: #000000;
+		}
+		40% {
+			color: #191919;
+		}
+
+		50% {
+			color: #fff;
+		}
 	}
 }
 #curPageName {
@@ -222,7 +220,7 @@ onBeforeMount(() => {
 		position: absolute;
 		border-radius: 50%;
 		border: 1px dotted rgba(255, 255, 255, 0.2);
-		
+
 		&::before {
 			position: absolute;
 			left: 20%;
@@ -411,7 +409,6 @@ onBeforeMount(() => {
 	background-size: 100% 100%;
 	background-position: center;
 	animation: rotateSun 60s ease-in-out infinite both;
-
 	@keyframes rotateSun {
 		100% {
 			transform: rotate(360deg);
@@ -425,7 +422,7 @@ onBeforeMount(() => {
 		width: 1000%;
 		height: 1000%;
 		border-radius: 50%;
-		border: 4px double #68e6ff;
+
 		background: #000000;
 		animation: ping 5s ease-in-out infinite both;
 	}
@@ -436,7 +433,7 @@ onBeforeMount(() => {
 			opacity: 0.7;
 			background: #fffefe;
 		}
-		80% {
+		70% {
 			-webkit-transform: scale(1.4);
 			transform: scale(1.4);
 			opacity: 0.3;
@@ -459,8 +456,6 @@ onBeforeMount(() => {
 	background: #000000;
 	width: 100%;
 	height: 100%;
-	// vue配合父子组件 子组件使用flex＋ 滚动条时，父组件最好不要限制高度，否则子组件的元素超过父组件的高度或者长度时会溢出
-
 	color: #ffffff;
 }
 </style>

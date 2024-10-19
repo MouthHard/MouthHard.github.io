@@ -45,11 +45,6 @@ const pages = [
 	"https://i0.hdslb.com/bfs/article/5430a7238bb85eed25c12bed732513469e5adad7.jpg@progressive.webp",
 	"https://i0.hdslb.com/bfs/article/cb0f07cc87c26f57481dc5c9f29bdff05e7dced5.jpg@progressive.webp",
 ];
-
-
-onMounted(() => {
-	
-});
 </script>
 
 <style scoped lang="scss">
@@ -74,7 +69,6 @@ onMounted(() => {
 		display: flex;
 		width: 100%;
 		height: 100%;
-		// transform: rotateY(120deg);
 		perspective: 150rem;
 	}
 	button {

@@ -423,9 +423,10 @@ const handelToogel = (index) => {
 			width: 100%;
 			position: relative;
 			font-weight: bolder;
-			font-size: 1.2rem;
+			font-size: 1rem;
 			padding: 15px;
-			text-align: center;
+			white-space:pre-wrap;
+			text-align: left;
 			color: #ffffff;
 			appearance: none;
 			background: transparent;
