@@ -1,6 +1,37 @@
-<!doctype html><html lang=""><head><meta charset="utf-8"><meta name="referrer" content="no-referrer"/><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>vue3_test</title><script defer="defer" src="/js/chunk-vendors.5fc78049.js"></script><script defer="defer" src="/js/app.6557e4bd.js"></script><link href="/css/app.ea7c8a5f.css" rel="stylesheet"></head><style>html,body,#app{
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        overflow: hidden;
-    }</style><body style="background: url('https://smd-cms.nasa.gov/wp-content/uploads/2023/09/PIA12066_hires.jpg?w=1536&format=webp');"><noscript><strong>We're sorry but vue3_test doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="referrer" content="no-referrer"/><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/logo.ico"><title>人民万岁</title><style>html,body,#app{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        body{
+            background: black; /* 默认黑色背景 */
+        }</style><script defer="defer" src="/js/chunk-vendors.9d41ff0b.js"></script><script defer="defer" src="/js/app.20b9e15e.js"></script><link href="/css/app.e7ad2cdf.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but vue3_test doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script>document.addEventListener('DOMContentLoaded', function() {
+        const bgUrl = 'https://images-pc.oss-cn-hongkong.aliyuncs.com/app/bg.png';
+        const img = new Image();
+        let loaded = false;
+
+        // 5秒超时控制
+        const timer = setTimeout(() => {
+          if (!loaded) {
+            document.body.style.background = 'black';
+            img.onload = img.onerror = null; // 清除事件监听
+          }
+        }, 5000);
+
+        // 图片加载成功
+        img.onload = function() {
+          loaded = true;
+          clearTimeout(timer);
+          document.body.style.background = `url(${bgUrl}) no-repeat center center/cover`;
+        };
+
+        // 图片加载失败
+        img.onerror = function() {
+          loaded = true;
+          clearTimeout(timer);
+          document.body.style.background = 'black';
+        };
+
+        img.src = bgUrl;
+      });</script></body></html>

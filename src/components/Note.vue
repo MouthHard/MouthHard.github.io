@@ -872,6 +872,15 @@ const noteArr = [
 		noteTitle: `el-table里的el-dialog重叠问题： 在el-table-column里面嵌套dialog 会出现点击一次 多个同样的dialog弹出的问题`,
 		reason: `https://blog.csdn.net/weixin_43792451/article/details/131334077    帖子  https://www.jianshu.com/p/a03dc72fb556`,
 		solution: `1. 把<el-dialog>移出<el-table>，还是用一个全局变量来控制dialog的显示。 即全局只有一个el-dialog，适用于我这个项目的场景：一个时间只要显示一个log dialog。但不适用于你的项目本来就是要同时显示多个el-dialog。 2.table里每行都有dialog, table数据每一行都有个变量用于控制每行的dialog的显示。但是要注意vue的响应式数据更新机制，这个变量必须要在table数据声明的时候就一起声明。比如我必须在填塞table数据的时候就把这个变量写出来, 从而在点击log标题的click事件中去操作这个变量的true/false`,
+	},{
+		id: 80,
+		audioName: "",
+		audioSrc: "",
+		background: "",
+		src: "",
+		noteTitle: `父组件和子组件的类名，id名，变量名等等尽量不要出现重名重复，解析的时候会把子组件的内容给渲染到父组件进行整体整合，这时候就会出现命名冲突，从而出现样式冲突、变量冲突、逻辑冲突等等`,
+		reason: ``,
+		solution: ``,
 	},
 ];
 const flagArr = new Map([

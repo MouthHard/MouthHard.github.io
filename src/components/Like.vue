@@ -9,9 +9,8 @@
 	</div>
 
 	<div v-show="fmActive == 0" class="likeBook">
-		<span v-for="item in bookArr">
+		<span v-for="item in bookArr" :key="item.id">
 			<img :src="item.imgSrc" />
-
 			<h4>{{ item.bookName }}</h4>
 			<h5>{{ item.author }}</h5>
 			<h6>{{ item.score }}</h6>
@@ -37,7 +36,7 @@
 import router from "@/router";
 import { ref } from "vue";
 import { onMounted } from "vue";
-let imgSrcFm = ref("https://i0.hdslb.com/bfs/article/86cdd7bfa8a596da0983fa0112c554a0cfaae684.jpg@progressive.webp");
+
 
 let fmActive = ref(0);
 const fmARR = [
@@ -640,6 +639,109 @@ const noteArr = [
 		reason: `在cmd 随便一个路径下执行 xxx比如在C盘执行QQ时，但是QQ在D盘/qq下面，如果命令行在C盘下面没有找到QQ.exe执行程序，就会进环境变量中的path变量中寻找`,
 		solution: `而高级系统设置中有用户变量和系统变量，二者都有path，区别在于一台电脑可以设置多个用户，用户变量中的变量只对当前电脑的当前用户起作用，系统变量对当前电脑所有用户起作用`,
 	},
+	{
+		id: 82,
+		noteTitle: `在前端vue项目src文件夹下建立server文件夹，然后就可以在里面利用npm安装各种包，从而实现前端配合nodeJS连接数据库mysql，mongodb，或者直接连接用阿里云OSS对象存储+PicGo搭建的图床。(具体做法问AI通义千问)`,
+		reason: `const OSS = require("ali-oss");
+			// 创建OSS客户端实例
+			const client = new OSS({
+				region: "你的存储桶所在区域例如oss-cn-hangzhou", 
+				accessKeyId: "你的阿里云accessKeyId",
+				accessKeySecret: "你的阿里云秘钥accessKeySecret",
+				bucket: "你的桶名称例如my-bucket", 
+			});
+
+			async function listObjectsInFolder(prefix) {
+				try {
+					const result = await client.list({ prefix: prefix, "max-keys": 最大返回数量 }); 
+					console.log( result.objects)
+					// 如果存在更多数据，result.isTruncated 会为 true
+					if (result.isTruncated) {
+						console.log("还有更多数据");
+					}
+				} catch (err) {
+					console.error("戳啦", err);
+				}
+			}
+			//最后导出模块，在使用的页面和组件中import引入模块的函数即可使用
+			module.exports ={
+			listObjectsInFolder:listObjectsInFolder
+			}`,
+		solution: `注意要在阿里云OSS存储平台设置好CORS跨域规则，按照
+		"AllowedOrigin": ["*"],
+        "AllowedMethod": ["GET", "POST", "PUT", "DELETE", "HEAD"],
+        "AllowedHeader": ["*"],
+        "ExposeHeader": [],
+        "MaxAgeSeconds": 300
+		填写即可`,
+	},
+	{
+		id: 82,
+		noteTitle: `在vue项目中，获取异步返回的数据，比如说promise，如果不做处理，则是返回一个Promise<pending>对象，要通过then(res=>{})或者await来获取promise对象里面的实际数据`,
+		reason: `同时，也不能用普通的数组或者对象来接收这个异步的数据，否则会出现数据更新但是页面不更新的情况。因为JS又是单线程(如果一个线程修改dom，另一个线程删除dom，那么浏览器就不知道该先执行哪个操作，所以必须是单线程)，而通过异步获取的数据的请求会在同步任务执行完之后才会执行，异步任务又分为宏任务和微任务，微任务会积攒在队列中直到上一个宏任务执行完到下一个宏任务开始这段时间执行队列里的微任务。`,
+		solution: `而Promise的操作又是微任务，因此会等前面的宏任务(即script里面的所有宏任务代码)才执行，此时已经完成页面渲染了，再执行微任务自然出现页面不更新的情况，所以需要用到响应式`,
+	},
+	{
+		id: 83,
+		noteTitle: `如果异步操作（如从服务器获取数据）之后需要立即访问更新后的 DOM，那么将 nextTick 放在 then 回调中是合理的`,
+		reason: `目前最好的操作是，如果通过异步获取了数据，那么必须在nextTick里面执行dom更新，这样才能保证获取的数据能实时更新响应，而nextTick操作放在获取数据成功后的.then操作里是比较合适的`,
+		solution: `示例：
+		const loadImages = async () => {
+			const res = await data;
+			....数据赋值的操作
+		};
+		onMounted(() => {
+			loadImages().then(() => {
+				nextTick(() => { dom更新操作});
+			})
+			.catch((error) => {
+				console.error("失败", error);
+			});
+		})
+		或者直接
+		async () => {
+			const res = await data;
+			....数据赋值的操作
+		}.then(() => {
+				nextTick(() => { dom更新操作});
+			})
+		.catch((error) => {
+				console.error("失败", error);
+		})不需要经过onmounted，因为此时已经是下一个循环了。
+		`,
+	},{
+		id: 84,
+		noteTitle: `假设异步函数fetchData返回一个Promise，该Promise在解析后会返回一个对象。这个对象可能包含嵌套的属性，假如直接访问这个属性，可能系统还没准备好，此时会报错`,
+		reason: `使用可选链运算符?.可以安全访问属性，某些属性在某些情况下不存在，也不会导致程序崩溃或抛出错误，而是会返回undefined    比如xxx?.xxx属性`,
+		solution: `访问属性：data?.user，如果data是null或undefined，表达式的结果就是undefined，而不是抛出错误。继续访问下一个属性：如果data.user不是null或undefined，则继续访问user.profile，否则返回undefined。最终访问属性值：如果user.profile存在，则访问profile.email；否则返回undefined。`,
+	},{
+		id: 85,
+		audioName: "",
+		audioSrc: "",
+		background: "",
+		src: "",
+		noteTitle: `父组件和子组件的类名，id名，变量名等等尽量不要出现重名重复，解析的时候会把子组件的内容给渲染到父组件进行整体整合，这时候就会出现命名冲突，从而出现样式冲突、变量冲突、逻辑冲突等等`,
+		reason: ``,
+		solution: ``,
+	},{
+		id: 85,
+		audioName: "",
+		audioSrc: "",
+		background: "",
+		src: "",
+		noteTitle: `为了在 Flexbox 布局中，图片在网页缩小的时候也会相应地缩放，而不会破坏整体布局`,
+		reason: `可以用max-width: 100% 和 height: auto: 最简单有效的方法，适用于大多数情况。`,
+		solution: `object-fit: 对于需要更精确控制图片如何适应容器的情况。也可以采用媒体查询和响应式设计: 对于需要根据不同屏幕尺寸进行更精细调整的情况。`,
+	},{
+		id: 86,
+		audioName: "",
+		audioSrc: "",
+		background: "",
+		src: "",
+		noteTitle: `在grid布局中，想通过grid-auto-flow来使得元素按纵向排布，但是并没有起作用`,
+		reason: `目前还不清楚原因`,
+		solution: `。`,
+	},
 ];
 
 // 下拉显示box函数
@@ -671,9 +773,9 @@ onMounted(() => {
 	#bigBronzeMirror,
 	#smallBronzeMirror {
 		position: absolute;
-		
+
 		border-radius: 50%;
-		
+
 		transition: 0.5s;
 	}
 	#bigBronzeMirror {
@@ -681,7 +783,7 @@ onMounted(() => {
 		top: 0;
 		height: 99%;
 		width: 49%;
-		background: url("@/assets/likeBG.png");
+		background: url("https://images-pc.oss-cn-hongkong.aliyuncs.com/like/likeBG.webp");
 		background-position: 100% 100%;
 		background-size: cover;
 		&:hover {
@@ -694,7 +796,7 @@ onMounted(() => {
 		top: 25%;
 		height: 50%;
 		width: 25%;
-		background: url("@/assets/likeBack.png");
+		background: url("https://images-pc.oss-cn-hongkong.aliyuncs.com/like/likeBack.webp");
 		background-position: 100% 100%;
 		background-size: cover;
 		&:hover {
@@ -745,7 +847,7 @@ onMounted(() => {
 		color: #ffffff;
 		padding: 1.5rem 10px;
 		border: none;
-		background: url("@/assets/likeRtn.png");
+		background: url("https://images-pc.oss-cn-hongkong.aliyuncs.com/like/likeRtn.webp");
 
 		background-size: cover;
 		z-index: 2;
@@ -789,7 +891,6 @@ onMounted(() => {
 		&:hover {
 			cursor: pointer;
 			border-bottom: 1px dotted #7b7b7a;
-			// box-shadow: inset -25px 0  30px -5px #878686;
 		}
 		img {
 			transition: 1s;
@@ -833,7 +934,7 @@ onMounted(() => {
 	justify-content: flex-start;
 	align-items: center;
 	z-index: 1;
-	box-shadow: inset 15px 0   30px 1px #000000;
+	box-shadow: inset 15px 0 30px 1px #000000;
 	&::before {
 		content: "";
 		position: absolute;
@@ -854,7 +955,6 @@ onMounted(() => {
 			height: 0%;
 			z-index: -1;
 			background-color: rgba(0, 0, 0, 0);
-			
 		}
 	}
 	.box {
@@ -889,7 +989,6 @@ onMounted(() => {
 			transition: 1s;
 			border-radius: 50px;
 			border: transparent;
-		
 			background: transparent;
 		}
 		h3 {
@@ -898,7 +997,6 @@ onMounted(() => {
 		&:hover div {
 			box-shadow: rgb(214, 212, 212) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.4) -3px -3px 6px 1px inset;
 		}
-
 		div {
 			padding: 5px;
 			margin: 5px 20px;

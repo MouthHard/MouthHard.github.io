@@ -16,6 +16,7 @@ const routes = [
 			{ path: "user-steam", name: "user-steam", component: () => import("../components/GameSubApp/UserSteam.vue") },
 		],
 	},
+	{ path: "/mobile-music", name: "MobileMusic", component: () => import("../components/MusicSubApp/MobileMusic.vue") },
 	{
 		path: "/music",
 		name: "music",
@@ -23,6 +24,7 @@ const routes = [
 		redirect: "/music/recommend",
 		children: [
 			// ---------子路由
+			
 			{ path: "boke", name: "boke", component: () => import("../components/MusicSubApp/Boke.vue") },
 			{ path: "recommend", name: "recommend", component: () => import("../components/MusicSubApp/Recommend.vue") },
 			{ path: "community", name: "community", component: () => import("../components/MusicSubApp/Community.vue") },
@@ -57,10 +59,11 @@ const routes = [
 		],
 	},
 	{ path: "/share_video", name: "share_video", component: () => import("@/components/ShareVideo.vue") },
+	// { path: "/footmark", name: "footmark", component: () => import("@/components/Footmark.vue") },
 	{
 		path: "/docu",
 		name: "docu",
-		redirect: "/docu/convertor", //重定向到第一个子路由
+		redirect: "/docu/calendar", //重定向到第一个子路由
 		component: () => import("@/components/Document.vue"),
 		children: [
 			// ---------子路由

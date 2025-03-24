@@ -1,5 +1,6 @@
 <template>
 	<div class="app-container">
+
 		<!-- 标签切换 -->
 		<div class="tags_box">
 			<div v-for="(item, index) in convertList" class="tags">
@@ -36,8 +37,7 @@
 	</div>
 </template>
 <script setup>
-import { nextTick, ref } from "vue";
-
+import { nextTick, ref, onMounted } from "vue";
 const convertList = ["货币转换", "容量与体积转换", "长度与距离转换", "质量与重量转换", "温度转换", "能量/热量转换", "面积转换", "速度转换", "加速度转换", "时间转换", "功率转换", "视在功率转换", "数据转换", "压强转换", "角度转换", "电量转换", "电压转换", "电流转换", "电感转换", "电容转换", "频率转换", "力转换", "密度转换", "流量转换", "流量(质量)转换", " 浓度(质量-体积)转换", "浓度(摩尔-体积)", "声音强度转换", "亮度转换"];
 //默认选中第一个tab
 let active = ref(0);
@@ -240,7 +240,7 @@ const activeArr = [
 		id: `7`,
 		optionArr: ["厘米每秒(cm/s)", "米每秒(m/s)", "千米每秒(km/s)", "千米每时(km/h)", "光速", "马赫(Ma)", "英里每时(mph)", "英尺每秒(ft/s)", "英尺每分钟(ft/min)", "英寸每秒 (in/s)", "节(kn)"],
 		exChangeArr: new Map([
-			["厘米每秒(cm/s)", [{ "厘米每秒(cm/s)": 1, "米每秒(m/s)": 0.01,"千米每秒(km/s)":0.000001 }]],
+			["厘米每秒(cm/s)", [{ "厘米每秒(cm/s)": 1, "米每秒(m/s)": 0.01, "千米每秒(km/s)": 0.000001 }]],
 			["米每秒(m/s)", { "重力加速度(g)": 0.101971621298, "米每二次方秒(m/s²)": 1 }],
 			["千米每秒(km/s)", [{ "重力加速度(g)": 1, "米每二次方秒(m/s²)": 9.80665 }]],
 			["千米每时(km/h)", { "重力加速度(g)": 0.101971621298, "米每二次方秒(m/s²)": 1 }],
@@ -261,26 +261,6 @@ const activeArr = [
 			["米每二次方秒(m/s²)", { "重力加速度(g)": 0.101971621298, "米每二次方秒(m/s²)": 1 }],
 		]),
 	},
-	// { id: `9`, optionArr: ["美元", "人民币"] },
-	// { id: `10`, optionArr: ["美元", "人民币"] },
-	// { id: `11`, optionArr: ["美元", "人民币"] },
-	// { id: `12`, optionArr: ["美元", "人民币"] },
-	// { id: `13`, optionArr: ["美元", "人民币"] },
-	// { id: `14`, optionArr: ["美元", "人民币"] },
-	// { id: `15`, optionArr: ["美元", "人民币"] },
-	// { id: `16`, optionArr: ["美元", "人民币"] },
-	// { id: `17`, optionArr: ["美元", "人民币"] },
-	// { id: `18`, optionArr: ["美元", "人民币"] },
-	// { id: `19`, optionArr: ["美元", "人民币"] },
-	// { id: `20`, optionArr: ["美元", "人民币"] },
-	// { id: `21`, optionArr: ["美元", "人民币"] },
-	// { id: `22`, optionArr: ["美元", "人民币"] },
-	// { id: `23`, optionArr: ["美元", "人民币"] },
-	// { id: `24`, optionArr: ["美元", "人民币"] },
-	// { id: `25`, optionArr: ["美元", "人民币"] },
-	// { id: `26`, optionArr: ["美元", "人民币"] },
-	// { id: `27`, optionArr: ["美元", "人民币"] },
-	// { id: `28`, optionArr: ["美元", "人民币"] },
 ];
 const theToOther = (arr, id, type) => {
 	let selectArray = document.querySelectorAll(".con_box select");
@@ -318,6 +298,9 @@ const handelToogel = (index) => {
 };
 </script>
 
+
+
+
 <style scoped lang="less">
 * {
 	margin: 0;
@@ -341,7 +324,7 @@ const handelToogel = (index) => {
 
 		transition: 0.5s;
 		margin: 1px;
-		animation:  rotateXY 1s forwards;
+		animation: rotateXY 1s forwards;
 		&:hover {
 			font-size: 2.5rem;
 			border: 2px solid transparent;
@@ -349,7 +332,7 @@ const handelToogel = (index) => {
 			animation: colorAni 5s infinite;
 		}
 		@keyframes rotateXY {
-			100% {
+			10% {
 				transform: rotate(360deg);
 			}
 			80% {
@@ -425,7 +408,7 @@ const handelToogel = (index) => {
 			font-weight: bolder;
 			font-size: 1rem;
 			padding: 15px;
-			white-space:pre-wrap;
+			white-space: pre-wrap;
 			text-align: left;
 			color: #ffffff;
 			appearance: none;
@@ -446,4 +429,5 @@ const handelToogel = (index) => {
 		}
 	}
 }
+
 </style>

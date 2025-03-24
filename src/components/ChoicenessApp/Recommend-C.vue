@@ -6,19 +6,17 @@
 				<h2 @click="changCommendSong(1, choiceSecArr, 'choiceFirstTab_Line')">▶</h2>
 				<h3>官方歌单 ▼</h3>
 				<svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 512 512">
-					<path
-						fill="currentColor"
-						d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208s208-93.31 208-208S370.69 48 256 48m120 182.15a8.62 8.62 0 0 1-8.62 8.62h-59.54a8.61 8.61 0 0 1-6.09-14.71l22.17-22.17l-5.6-6.51a87.38 87.38 0 1 0-62.94 148a87.55 87.55 0 0 0 82.42-58.25A16 16 0 1 1 368 295.8a119.4 119.4 0 1 1-112.62-159.18a118.34 118.34 0 0 1 86.36 36.95l.56.62l4.31 5l14.68-14.68a8.44 8.44 0 0 1 6-2.54a8.61 8.61 0 0 1 8.68 8.63Z" />
+					<path fill="currentColor" d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208s208-93.31 208-208S370.69 48 256 48m120 182.15a8.62 8.62 0 0 1-8.62 8.62h-59.54a8.61 8.61 0 0 1-6.09-14.71l22.17-22.17l-5.6-6.51a87.38 87.38 0 1 0-62.94 148a87.55 87.55 0 0 0 82.42-58.25A16 16 0 1 1 368 295.8a119.4 119.4 0 1 1-112.62-159.18a118.34 118.34 0 0 1 86.36 36.95l.56.62l4.31 5l14.68-14.68a8.44 8.44 0 0 1 6-2.54a8.61 8.61 0 0 1 8.68 8.63Z" />
 				</svg>
 			</header>
 			<footer>
 				<span v-for="item in choiceSecArr" :key="item.id">
 					<h5>{{ item.playNum }}</h5>
 					<div>
-						<svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 24 24">
+						<svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 512 512">
 							<path
 								fill="currentColor"
-								d="M13 2.05v2c4.39.54 7.5 4.53 6.96 8.92c-.46 3.64-3.32 6.53-6.96 6.96v2c5.5-.55 9.5-5.43 8.95-10.93c-.45-4.75-4.22-8.5-8.95-8.97zM5.67 19.74A9.994 9.994 0 0 0 11 22v-2a8.002 8.002 0 0 1-3.9-1.63zm1.43-14c1.12-.9 2.47-1.48 3.9-1.68v-2c-1.95.19-3.81.94-5.33 2.2zM5.69 7.1L4.26 5.67A9.885 9.885 0 0 0 2.05 11h2c.19-1.42.75-2.77 1.64-3.9M4.06 13h-2c.2 1.96.97 3.81 2.21 5.33l1.42-1.43A8.002 8.002 0 0 1 4.06 13M10 16.5l6-4.5l-6-4.5z" />
+								d="M234.518 388.333v45.972l-110.635-63.88V242.653l39.794 22.966c-14.135 54.515 12.719 107.317 70.841 122.715M373.264 194.01V66.24L262.61 2.355v127.77zm-123.878-63.885V2.355L138.735 66.24v127.77zm151.96 112.527v127.77L512 434.307v-127.77zm-124.097 145.71v45.937l110.872-63.884V242.649l-39.813 23c15.7 55.241-11.772 105.898-71.059 122.712m-166.598-17.94v-127.77L0 306.537v127.77zm216.189-141.96l39.806-22.994l-110.652-63.886l-110.649 63.883l39.809 22.97c38.444-40.568 100.251-41.979 141.686.026M6.612 445.76l110.65 63.885l110.654-63.885l-110.653-63.886zm277.471 0l110.652 63.885l110.652-63.885l-110.652-63.886zm43.437-151.62c0-54.851-59.788-89.32-107.36-61.894s-47.573 96.363 0 123.789s107.36-7.043 107.36-61.894" />
 						</svg>
 						<h4>{{ item.playName }}</h4>
 						<ol>
@@ -36,9 +34,7 @@
 					<button @click="changPart(0, item.fifthArr, item.partId)">◁</button>
 					<button @click="changPart(1, item.fifthArr, item.partId)">▷</button>
 					<svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 512 512">
-						<path
-							fill="currentColor"
-							d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208s208-93.31 208-208S370.69 48 256 48m120 182.15a8.62 8.62 0 0 1-8.62 8.62h-59.54a8.61 8.61 0 0 1-6.09-14.71l22.17-22.17l-5.6-6.51a87.38 87.38 0 1 0-62.94 148a87.55 87.55 0 0 0 82.42-58.25A16 16 0 1 1 368 295.8a119.4 119.4 0 1 1-112.62-159.18a118.34 118.34 0 0 1 86.36 36.95l.56.62l4.31 5l14.68-14.68a8.44 8.44 0 0 1 6-2.54a8.61 8.61 0 0 1 8.68 8.63Z" />
+						<path fill="currentColor" d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208s208-93.31 208-208S370.69 48 256 48m120 182.15a8.62 8.62 0 0 1-8.62 8.62h-59.54a8.61 8.61 0 0 1-6.09-14.71l22.17-22.17l-5.6-6.51a87.38 87.38 0 1 0-62.94 148a87.55 87.55 0 0 0 82.42-58.25A16 16 0 1 1 368 295.8a119.4 119.4 0 1 1-112.62-159.18a118.34 118.34 0 0 1 86.36 36.95l.56.62l4.31 5l14.68-14.68a8.44 8.44 0 0 1 6-2.54a8.61 8.61 0 0 1 8.68 8.63Z" />
 					</svg>
 				</header>
 				<footer>
@@ -53,9 +49,7 @@
 								<path fill="currentColor" d="M15 4v16.563L9.719 15.28L8.28 16.72l7 7l.719.687l.719-.687l7-7l-1.438-1.438l-5.28 5.28V4zM7 26v2h18v-2z" />
 							</svg>
 							<svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 256 256">
-								<path
-									fill="currentColor"
-									d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8" />
+								<path fill="currentColor" d="M178 40c-20.65 0-38.73 8.88-50 23.89C116.73 48.88 98.65 40 78 40a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 228.66 240 172 240 102a62.07 62.07 0 0 0-62-62m-50 174.8c-18.26-10.64-96-59.11-96-112.8a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8" />
 							</svg>
 							<svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
 								<path fill="currentColor" d="M5 10c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m14 0c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m-7 0c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2" />
@@ -72,102 +66,88 @@ import { onMounted } from "vue";
 
 const choiceSecArr = [
 	{
-		id: 0,
 		playNum: "▶ 1.1亿",
-		playName: "每日推荐，从漫漫长夜听起",
+		playName: "深度睡眠 |重度失眠者专用歌单",
 		songArr: ["漫漫长夜", "xxx", "xxx"],
-		bg: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
-		bgColor: "#009895",
+		bgColor: "#21353c",
 	},
 	{
-		id: 1,
 		playNum: "▶ 1.23亿",
-		playName: "今天从《Mystery of Love》听起|私人雷达",
+		playName: "纯音 | 静淌时隙悄然掠过 | 助眠",
 		songArr: ["Mystery of Love", "xxx", "xxx"],
-		bg: "https://b.zol-img.com.cn/sjbizhi/images/11/1080x1920/1592967802496.jpg",
-		bgColor: "#998E7C",
+		bgColor: "#fff4e6",
 	},
 	{
-		id: 2,
 		playNum: "▶ 851.6万",
-		playName: "也许我们应该去更远的地方看看",
+		playName: "那些你熟悉却又不知道名字的轻音乐",
 		songArr: ["xxx", "xxx", "xxx"],
-		bg: "https://sjbz-fd.zol-img.com.cn/t_s1080x1920c/g5/M00/00/02/ChMkJlfJVKaIJ7UkAEC_FYEJoMwAAU9ygMTXtwAQL8t602.jpg",
-		bgColor: "#FDD56C",
+		bgColor: "#f2c86d",
 	},
 	{
-		id: 3,
 		playNum: "▶ 70万",
-		playName: "纯音乐 | 星空之下，绿草至上",
+		playName: "背景音乐珍藏，总有一天你会用上的",
 		songArr: ["xxx", "xxx", "xxx"],
-		bg: "https://pic4.zhimg.com/v2-b1c287fc4ae0faa5deb36c233230b956_r.jpg?source=1940ef5c",
-		bgColor: "#27416A",
+		bgColor: "#ffe7c6",
 	},
 	{
-		id: 4,
 		playNum: "▶ 5401",
-		playName: "秋日之歌",
+		playName: "「纯音乐」温暖治愈丨沉浸于慵懒的下午时光",
 		songArr: ["xxx", "xxx", "xxx"],
-		bg: "https://ts1.cn.mm.bing.net/th/id/R-C.b9f86c9bc2216285a504d16b7085c085?rik=B3z9rRnZUQfqrw&riu=http%3a%2f%2fpic.zsucai.com%2ffiles%2f2013%2f0923%2fqiutianshuye8.jpg&ehk=ASq8pVlhKb6ED%2bNRexj7tJghtsR6EX74XbCcsdccf6Y%3d&risl=&pid=ImgRaw&r=0",
-		bgColor: "#B8653D",
+		bgColor: "#420002",
 	},
 	{
-		id: 5,
 		playNum: "▶ 139.22万",
-		playName: "大自然的声音",
+		playName: "治愈系 | 愿每天的坏心情都能在睡前清零",
 		songArr: ["xxx", "xxx", "xxx"],
-		bg: "https://sjbz-fd.zol-img.com.cn/t_s1080x1920c/g2/M00/0A/03/ChMlWl0d6aSIYm9KADKqlKvl4gIAALiYQCilvAAMqqs077.jpg",
+		bgColor: "#85816f",
+	},
+	{
+		playNum: "▶ 139.22万",
+		playName: "寂静鸣远：治愈纯音 抚慰心绪 净化心灵",
+		songArr: ["xxx", "xxx", "xxx"],
 		bgColor: "#D4DED5",
 	},
 ];
+for (let i = 0; i < choiceSecArr.length; i++) {
+	choiceSecArr[i].src = `https://images-pc.oss-cn-hongkong.aliyuncs.com/music/choice/R-C/${i}.webp`;
+	choiceSecArr[i].id = i;
+}
+
 const partArr = [
 	{
-		partId: 0,
 		title: "最新音乐 ▶",
 		fifthArr: [
 			{
-				id: 0,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
 				h6OtherText: "10w+评论",
 			},
 			{
-				id: 1,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
 				h6OtherText: "10w+评论",
 			},
 			{
-				id: 2,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
 				h6OtherText: "10w+评论",
 			},
 			{
-				id: 3,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
 				h6OtherText: "10w+评论",
 			},
 			{
-				id: 4,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
 				h6OtherText: "10w+评论",
 			},
 			{
-				id: 5,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
@@ -176,52 +156,39 @@ const partArr = [
 		],
 	},
 	{
-		partId: 1,
 		title: "精选有声书 ▶",
 		fifthArr: [
 			{
-				id: 0,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
 				h6OtherText: "10w+评论",
 			},
 			{
-				id: 1,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
 				h6OtherText: "10w+评论",
 			},
 			{
-				id: 2,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
 				h6OtherText: "10w+评论",
 			},
 			{
-				id: 3,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
 				h6OtherText: "10w+评论",
 			},
 			{
-				id: 4,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
 				h6OtherText: "10w+评论",
 			},
 			{
-				id: 5,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
@@ -230,52 +197,39 @@ const partArr = [
 		],
 	},
 	{
-		partId: 2,
 		title: "热门播客 ▶",
 		fifthArr: [
 			{
-				id: 0,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
 				h6OtherText: "10w+评论",
 			},
 			{
-				id: 1,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
 				h6OtherText: "10w+评论",
 			},
 			{
-				id: 2,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
 				h6OtherText: "10w+评论",
 			},
 			{
-				id: 3,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
 				h6OtherText: "10w+评论",
 			},
 			{
-				id: 4,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
 				h6OtherText: "10w+评论",
 			},
 			{
-				id: 5,
-				imgSrc: "http://img.netbian.com/file/2015/0731/d70f74c0680a0603dcf5db47e809088f.jpg",
 				h4Text: "歌曲名",
 				h5Text: "歌手名",
 				h6Text: "vip",
@@ -284,6 +238,14 @@ const partArr = [
 		],
 	},
 ];
+for (let i = 0; i < partArr.length; i++) {
+	partArr[i].partId = i;
+	for (let j = 0; j < partArr[i].fifthArr.length; j++) {
+		partArr[i].fifthArr[j].id = i;
+		partArr[i].fifthArr[j].imgSrc = "http://p1.music.126.net/oJorrgJ3IotZUAbZkBMuFw==/109951167771736533.jpg?param=180y180";
+	}
+}
+let commendIndex = 0;
 const changCommendSong = (d, arr, id) => {
 	const commendDom = document.querySelectorAll(`#${id} footer span`);
 	if (d == 0) {
@@ -299,7 +261,7 @@ onMounted(() => {
 	const choiceSpanDOM = document.querySelectorAll("#choiceFirstTab_Line footer span");
 
 	for (let i = 0; i < choiceSecArr.length; i++) {
-		choiceSpanDOM[i].style.background = `url(${choiceSecArr[i].bg})`;
+		choiceSpanDOM[i].style.background = `url(${choiceSecArr[i].src})`;
 		choiceSpanDOM[i].style.backgroundSize = `cover`;
 		choiceSpanDOM[i].style.backgroundPosition = `center`;
 		choiceSpanDOM[i].childNodes[1].style.background = `${choiceSecArr[i].bgColor}`;
@@ -314,7 +276,7 @@ onMounted(() => {
 </script>
 
 <style lang="scss" scoped>
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
@@ -323,24 +285,17 @@ onMounted(() => {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-}
-.choiceFirstTab_MulPart {
-	width: 99%;
-	margin-left: 1%;
-	margin-top: 3%;
-	height: 60%;
-	display: flex;
-	flex-shrink: 0;
-	flex-direction: column;
-	.MP_Line {
+	#choiceFirstTab_Line {
 		display: flex;
 		flex-shrink: 0;
-		height: 95%;
+		margin-top: 0.5rem;
+		margin-left: 0.5rem;
+		height: 50%;
 		flex-wrap: wrap;
 		svg:hover {
 			color: #ff0000;
 			cursor: pointer;
-		}	
+		}
 		header {
 			position: relative;
 			width: 100%;
@@ -348,198 +303,218 @@ onMounted(() => {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			button {
-				font-size: 1.5rem;
+			h2 {
 				position: absolute;
-				background: transparent;
 				top: -30%;
 				z-index: 1;
 				margin: 10px;
-				color: #ffffff;
-				border: transparent;
 				&:hover {
-					text-align: center;
-					padding: 0 20px;
-					transition: 1s;
 					cursor: pointer;
 					color: #ff0000;
-					border-bottom: 1px solid red;
 				}
 				&:nth-of-type(1) {
-					left: 30%;
+					left: 40%;
 				}
 				&:nth-of-type(2) {
-					left: 50%;
+					left: 61%;
 				}
 			}
 		}
 		footer {
 			width: 100%;
 			display: flex;
-			flex-wrap: wrap;
-			height: 85%;
-			flex-direction: column;
-			justify-content: space-around;
+			height: 75%;
+			align-items: center;
 			span {
-				display: grid;
-				margin-top: 1%;
-				margin-left: 2%;
+				position: relative;
+				background-size: cover;
+				background-position: center;
+				width: 12%;
+				flex-shrink: 0;
+				height: 100%;
+				padding: 0 20px;
+				margin-left: 20px;
 				border-radius: 10px;
-				grid-template-columns: 25% 20% 20% 35%;
-				grid-template-rows: 40% 30% 30%;
-				width: 40%;
-				height: 29%;
-				
-				&:hover {
-					cursor: pointer;
-					background: linear-gradient(to right, #144da8, #000);
-				}
-				&:hover div {
-					width: 100%;
-				}
-				h4,
-				h5,
-				h6 {
-					margin: 0 0 0 10px;
-					transition: 0.5s;
-					&:hover {
-						cursor: pointer;
-						color: #ffffff;
-					}
-				}
-				h6 {
-					color: rgb(0, 200, 255);
-					width: auto;
-					border-radius: 5px;
-					padding: 5px;
-					line-height: 15px;
-					text-align: center;
-				}
-				h4 {
-					grid-column: 2 / span 2;
-					grid-row: 1 / span 1;
-				}
+				transition: 0.5s;
 				h5 {
-					color: #b3acac;
-					grid-column: 2 / span 2;
-					grid-row: 2 / span 1;
-				}
-				h6:nth-of-type(1) {
-					grid-column: 2 / span 1;
-					border: 1px solid #0095ff;
-					grid-row: 3 / span 1;
-				}
-				h6:nth-of-type(2) {
-					background: linear-gradient(to bottom, #030e36, #01081a);
-					grid-column: 3 / span 1;
-					grid-row: 3 / span 1;
+					margin: 0.2rem;
+					padding-top: 0.3rem;
+					text-align: right;
 				}
 				div {
-					transition: 1s;
-					width: 0;
-					display: flex;
-					justify-content: space-around;
-					align-items: center;
-					grid-column: 4 / span 1;
-					grid-row: 1 / span 3;
-				}
-				img {
+					position: absolute;
+					text-align: center;
+					bottom: 0;
+					left: 0;
+					height: 20%;
 					width: 100%;
-					height: 100%;
-					border-radius: 10px;
-					grid-column: 1 / span 1;
-					grid-row: 1 / span 3;
+					color: #ffffff;
+					border-radius: 0 0 10px 10px;
+					overflow: hidden; /* 溢出的部分隐藏 */
+					text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+				}
+				svg {
+					display: none;
+					transition: 0.5s;
+				}
+				&:hover {
+					cursor: pointer;
+				}
+				&:hover svg {
+					display: inline-block;
+				}
+				&:hover div {
+					transition: 0.5s;
+					height: 50%;
+				}
+				h4,
+				ol {
+					width: 95%;
+					padding: 0 5px;
+					font-size: 0.9rem;
+				}
+				ol {
+					text-align: left;
+					font-size: 0.7rem;
+					white-space: nowrap; /* 文本强制不换行 */
+					text-overflow: ellipsis; /* 文本溢出显示省略号 */
+					overflow: hidden; /* 溢出的部分隐藏 */
+
+					li {
+						list-style-type: decimal; //显示数字
+						list-style-position: inside;
+					}
 				}
 			}
 		}
 	}
-}
-#choiceFirstTab_Line {
-	display: flex;
-	flex-shrink: 0;
-	margin-top: 0.5rem;
-	margin-left: 0.5rem;
-	height: 50%;
-	flex-wrap: wrap;
-	svg:hover {
-		color: #ff0000;
-		cursor: pointer;
-	}
-	header {
-		position: relative;
-		width: 100%;
-		height: 10%;
+	.choiceFirstTab_MulPart {
+		width: 99%;
+		margin-left: 1%;
+		margin-top: 3%;
+		height: 60%;
 		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		h2 {
-			position: absolute;
-			top: -30%;
-			z-index: 1;
-			margin: 10px;
-			&:hover {
-				cursor: pointer;
-				color: #ff0000;
-			}
-			&:nth-of-type(1) {
-				left: 40%;
-			}
-			&:nth-of-type(2) {
-				left: 61%;
-			}
-		}
-	}
-	footer {
-		width: 100%;
-		display: flex;
-		height: 80%;
-		align-items: center;
-		
-		span {
-			position: relative;
-			background-size: cover;
-			background-position: center;
-			width: 11%;
+		flex-shrink: 0;
+		flex-direction: column;
+		.MP_Line {
+			display: flex;
 			flex-shrink: 0;
-			height: 100%;
-			padding: 0 20px;
-			margin-left: 20px;
-			border-radius: 10px;
-			transition: 0.5s;
-			h5 {
-				margin: 0.2rem;
-				padding-top: 0.3rem;
-				text-align: right;
-			}
-			div {
-				position: absolute;
-				text-align: center;
-				bottom: 0;
-				left: 0;
-				height: 20%;
-				width: 100%;
-				overflow-y: hidden;
-				color: #ffffff;
-				border-radius: 0 0 10px 10px;
-				text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
-			}
-			svg {
-				display: none;
-				transition: 0.5s;
-			}
-			&:hover {
+			height: 95%;
+			flex-wrap: wrap;
+			svg:hover {
+				color: #ff0000;
 				cursor: pointer;
 			}
-			&:hover svg {
-				display: inline-block;
+			header {
+				position: relative;
+				width: 100%;
+				height: 10%;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				button {
+					font-size: 1.5rem;
+					position: absolute;
+					background: transparent;
+					top: -30%;
+					z-index: 1;
+					margin: 10px;
+					color: #ffffff;
+					border: transparent;
+					&:hover {
+						text-align: center;
+						padding: 0 20px;
+						transition: 1s;
+						cursor: pointer;
+						color: #ff0000;
+						border-bottom: 1px solid red;
+					}
+					&:nth-of-type(1) {
+						left: 30%;
+					}
+					&:nth-of-type(2) {
+						left: 50%;
+					}
+				}
 			}
-			&:hover div {
-				transition: 0.5s;
-				height: 50%;
-			}
-			h4,
-			ol {
-				margin: 5px;
+			footer {
+				width: 100%;
+				display: flex;
+				flex-wrap: wrap;
+				height: 85%;
+				flex-direction: column;
+				justify-content: space-around;
+				span {
+					display: grid;
+					margin-top: 1%;
+					margin-left: 2%;
+					border-radius: 10px;
+					grid-template-columns: 20% 20% 25% 35%;
+					grid-template-rows: 40% 30% 30%;
+					width: 40%;
+					height: 29%;
+
+					&:hover {
+						cursor: pointer;
+						background: linear-gradient(to right, #144da8, #000);
+					}
+					&:hover div {
+						width: 100%;
+					}
+					h4,
+					h5,
+					h6 {
+						margin: 0 0 0 10px;
+						transition: 0.5s;
+						&:hover {
+							cursor: pointer;
+							color: #ffffff;
+						}
+					}
+					h6 {
+						color: rgb(0, 200, 255);
+						width: auto;
+						border-radius: 5px;
+						padding: 5px;
+						line-height: 15px;
+						text-align: center;
+					}
+					h4 {
+						grid-column: 2 / span 2;
+						grid-row: 1 / span 1;
+					}
+					h5 {
+						color: #b3acac;
+						grid-column: 2 / span 2;
+						grid-row: 2 / span 1;
+					}
+					h6:nth-of-type(1) {
+						grid-column: 2 / span 1;
+						border: 1px solid #0095ff;
+						grid-row: 3 / span 1;
+					}
+					h6:nth-of-type(2) {
+						background: linear-gradient(to bottom, #030e36, #01081a);
+						grid-column: 3 / span 1;
+						grid-row: 3 / span 1;
+					}
+					div {
+						transition: 1s;
+						width: 0;
+						display: flex;
+						justify-content: space-around;
+						align-items: center;
+						grid-column: 4 / span 1;
+						grid-row: 1 / span 3;
+					}
+					img {
+						width: 100%;
+						height: 100%;
+						border-radius: 10px;
+						grid-column: 1 / span 1;
+						grid-row: 1 / span 3;
+					}
+				}
 			}
 		}
 	}
