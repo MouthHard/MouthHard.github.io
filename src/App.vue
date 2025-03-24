@@ -42,14 +42,15 @@ import { useRouter } from "vue-router";
 let router = useRouter();
 let curPageName = ref("");
 let timer;
+
 const routeArr = [
-	{ routeId: "1", routeName: "/landscape", pageName: "碧落录" },
-	{ routeId: "2", routeName: "/game", pageName: "礼乐庭" },
-	{ routeId: "3", routeName: "/aphorism", pageName: "千金竹" },
-	{ routeId: "4", routeName: "/share_video", pageName: "伯牙琴" },
-	{ routeId: "5", routeName: "/docu", pageName: "霞珠算" },
-	{ routeId: "6", routeName: "/music", pageName: "紫玉筝" },
-	{ routeId: "7", routeName: "/like", pageName: "崇文阁" },
+	{ routeId: "1", routeName: "/music", pageName: "紫玉筝", bg: "https://images-pc.oss-cn-hongkong.aliyuncs.com/app/Saturn.png" },
+	{ routeId: "2", routeName: "/game", pageName: "礼乐庭", bg: "https://images-pc.oss-cn-hongkong.aliyuncs.com/app/Venus.png" },
+	{ routeId: "3", routeName: "/aphorism", pageName: "千金竹", bg: "https://images-pc.oss-cn-hongkong.aliyuncs.com/app/earth.png" },
+	{ routeId: "4", routeName: "/share_video", pageName: "伯牙琴", bg: "https://images-pc.oss-cn-hongkong.aliyuncs.com/app/Mars.png" },
+	{ routeId: "5", routeName: "/docu", pageName: "霞珠算", bg: "https://images-pc.oss-cn-hongkong.aliyuncs.com/app/Jupiter.png" },
+	{ routeId: "6", routeName: "/landscape", pageName: "碧落录", bg: "https://images-pc.oss-cn-hongkong.aliyuncs.com/app/Mercury.png" },
+	{ routeId: "7", routeName: "/like", pageName: "崇文阁", bg: "https://images-pc.oss-cn-hongkong.aliyuncs.com/app/Uranus.png" },
 ];
 const jumpToRouter = (route) => {
 	showTab();
@@ -67,6 +68,10 @@ const mouseOverPages = (add) => {
 
 // 生命周期钩子
 onMounted(() => {
+	let domArr = document.querySelectorAll(".trajectory p a");
+	for (let i = 0; i < routeArr.length; i++) {
+		domArr[i].style.backgroundImage = `url(${routeArr[i].bg})`;
+	}
 	// 页面路由跳转后切换场景
 	if (router.currentRoute.value.path == "/") {
 		router.push("/");
@@ -82,11 +87,10 @@ onMounted(() => {
 	const secondEl = document.querySelector(".second");
 	const timeEl = document.querySelector(".time");
 	const dateEl = document.querySelector(".date");
-
 	const days = ["星期天", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
 	const months = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
 
-	let time, month, day, date, hours, minutes, seconds, ampm;
+	let time, month, day, date, hours, minutes, seconds;
 	function setTime() {
 		time = new Date();
 		month = time.getMonth();
@@ -98,7 +102,6 @@ onMounted(() => {
 		hourEl.style.transform = `translate(-50%, -100%) rotate(${scale(hours, 0, 12, 0, 360)}deg)`;
 		minuteEl.style.transform = `translate(-50%, -100%) rotate(${scale(minutes, 0, 60, 0, 360)}deg)`;
 		secondEl.style.transform = `translate(-50%, -100%) rotate(${scale(seconds, 0, 60, 0, 360)}deg)`;
-
 		timeEl.innerHTML = `${hours} : ${minutes < 10 ? `0${minutes}` : minutes} : ${seconds < 10 ? `0${seconds}` : seconds} `;
 		dateEl.innerHTML = `${days[day]} ,  ${months[month]}月${date}日`;
 	}
@@ -125,7 +128,6 @@ onBeforeMount(() => {
 	justify-content: center;
 	align-items: center;
 	color: #ffffff;
-
 	.needle {
 		background-image: linear-gradient(to bottom, #519bdc, #ffffff);
 		box-shadow: 0 0 1rem 5px rgb(42, 187, 244);
@@ -137,19 +139,16 @@ onBeforeMount(() => {
 		width: 1px;
 		transform-origin: bottom center;
 		transition: all 0.5s ease-in;
-		/* opacity: 0.5; */
 	}
 	.needle.hour {
 		transform: translate(-50%, -100%) rotate(0deg);
 	}
-
 	.needle.minute {
 		transform: translate(-50%, -100%) rotate(0deg);
 		height: 5.5rem;
 		background-image: linear-gradient(to top, #0084ff, #ffffff, #ff0303);
 		box-shadow: 0 0 1rem 5px rgb(255, 0, 0);
 	}
-
 	.needle.second {
 		transform: translate(-50%, -100%) rotate(0deg);
 		height: 7.6rem;
@@ -165,7 +164,6 @@ onBeforeMount(() => {
 		left: 40%;
 		animation: changeColor 5s linear infinite;
 	}
-
 	.date {
 		position: absolute;
 		top: 10%;
@@ -176,7 +174,6 @@ onBeforeMount(() => {
 		letter-spacing: 0.3px;
 		animation: changeColor 5s linear infinite;
 	}
-
 	@keyframes changeColor {
 		0% {
 			color: #000000;
@@ -184,7 +181,6 @@ onBeforeMount(() => {
 		40% {
 			color: #191919;
 		}
-
 		50% {
 			color: #fff;
 		}
@@ -220,7 +216,6 @@ onBeforeMount(() => {
 		position: absolute;
 		border-radius: 50%;
 		border: 1px dotted rgba(255, 255, 255, 0.2);
-
 		&::before {
 			position: absolute;
 			left: 20%;
@@ -261,7 +256,6 @@ onBeforeMount(() => {
 				height: 1rem;
 				background-position: center;
 				animation: rotate 586s linear infinite;
-				background-image: url("https://wow.techbrood.com/uploads/1811/solar_system/mercury.png");
 			}
 		}
 		//金星公转
@@ -280,7 +274,6 @@ onBeforeMount(() => {
 				height: 1.3rem;
 				animation: rotate 2430s linear infinite;
 				background-position: center;
-				background-image: url("https://wow.techbrood.com/uploads/1811/solar_system/venus.png");
 			}
 		}
 		//地球公转
@@ -298,7 +291,6 @@ onBeforeMount(() => {
 				height: 1.5rem;
 				animation: rotate 10s linear infinite;
 				background-position: center;
-				background-image: url("https://smd-cms.nasa.gov/wp-content/uploads/2023/09/poster_earth_front_a.jpg?w=640");
 			}
 		}
 		//火星公转
@@ -316,7 +308,6 @@ onBeforeMount(() => {
 				height: 1.1rem;
 				animation: rotate 10s linear infinite;
 				background-position: center;
-				background-image: url("https://wow.techbrood.com/uploads/1811/solar_system/mars.png");
 			}
 		}
 		//木星公转
@@ -334,7 +325,6 @@ onBeforeMount(() => {
 				height: 2.5rem;
 				animation: rotate 4s linear infinite;
 				background-position: center;
-				background-image: url("https://wow.techbrood.com/uploads/1811/solar_system/jupiter.png");
 			}
 		}
 		//土星公转
@@ -354,7 +344,6 @@ onBeforeMount(() => {
 				image-orientation: 30deg;
 				animation: rotate 4s linear infinite;
 				background-position: center;
-				background-image: url("https://www.solarsystemscope.com/textures/previews/preview_saturn.jpg");
 			}
 		}
 		//天王星
@@ -374,7 +363,6 @@ onBeforeMount(() => {
 				image-orientation: 30deg;
 				animation: rotate 7s linear infinite;
 				background-position: center;
-				background-image: url("https://ts1.cn.mm.bing.net/th/id/R-C.bf21cc821d631bb040d08821089114ff?rik=Wkdxc93aag9U7A&riu=http%3a%2f%2fn.sinaimg.cn%2fsinacn%2fw640h426%2f20180301%2fb237-fwnpcns5331895.jpg&ehk=KdFIfKNoYisTiCdcWL4NLIAcBtr82Bfa3vYlsBtOR4U%3d&risl=&pid=ImgRaw&r=0");
 			}
 		}
 		&:hover {
@@ -405,7 +393,7 @@ onBeforeMount(() => {
 	border: transparent;
 	color: #ffffff;
 	background: #000000;
-	background-image: url("https://wow.techbrood.com/uploads/1811/solar_system/sun.png");
+	background-image: url("https://images-pc.oss-cn-hongkong.aliyuncs.com/app/sun.png");
 	background-size: 100% 100%;
 	background-position: center;
 	animation: rotateSun 60s ease-in-out infinite both;
@@ -422,7 +410,6 @@ onBeforeMount(() => {
 		width: 1000%;
 		height: 1000%;
 		border-radius: 50%;
-
 		background: #000000;
 		animation: ping 5s ease-in-out infinite both;
 	}

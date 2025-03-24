@@ -36,22 +36,12 @@ const singer_man_arr = ["全部", "男歌手", "女歌手", "乐队组合"];
 const singer_character_arr = ["热门", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "#"];
 
 const allSinger = [
-	{ singerId: 0, name: "周杰伦", num: "1000", pigSrc: "https://img.zcool.cn/community/018a245d85712da801211d53c6d216.jpg@3000w_1l_2o_100sh.jpg" },
-	{ singerId: 1, name: "周杰伦", num: "1000", pigSrc: "https://img.zcool.cn/community/018a245d85712da801211d53c6d216.jpg@3000w_1l_2o_100sh.jpg" },
-	{ singerId: 2, name: "周杰伦", num: "1000", pigSrc: "https://img.zcool.cn/community/018a245d85712da801211d53c6d216.jpg@3000w_1l_2o_100sh.jpg" },
-	{ singerId: 3, name: "周杰伦", num: "1000", pigSrc: "https://img.zcool.cn/community/018a245d85712da801211d53c6d216.jpg@3000w_1l_2o_100sh.jpg" },
-	{ singerId: 4, name: "周杰伦", num: "1000", pigSrc: "https://img.zcool.cn/community/018a245d85712da801211d53c6d216.jpg@3000w_1l_2o_100sh.jpg" },
-	{ singerId: 5, name: "周杰伦", num: "1000", pigSrc: "https://img.zcool.cn/community/018a245d85712da801211d53c6d216.jpg@3000w_1l_2o_100sh.jpg" },
-	{ singerId: 6, name: "周杰伦", num: "1000", pigSrc: "https://img.zcool.cn/community/018a245d85712da801211d53c6d216.jpg@3000w_1l_2o_100sh.jpg" },
-	{ singerId: 7, name: "周杰伦", num: "1000", pigSrc: "https://img.zcool.cn/community/018a245d85712da801211d53c6d216.jpg@3000w_1l_2o_100sh.jpg" },
-	{ singerId: 8, name: "周杰伦", num: "1000", pigSrc: "https://img.zcool.cn/community/018a245d85712da801211d53c6d216.jpg@3000w_1l_2o_100sh.jpg" },
-	{ singerId: 9, name: "周杰伦", num: "1000", pigSrc: "https://img.zcool.cn/community/018a245d85712da801211d53c6d216.jpg@3000w_1l_2o_100sh.jpg" },
-	{ singerId: 10, name: "周杰伦", num: "1000", pigSrc: "https://img.zcool.cn/community/018a245d85712da801211d53c6d216.jpg@3000w_1l_2o_100sh.jpg" },
-	{ singerId: 11, name: "周杰伦", num: "1000", pigSrc: "https://img.zcool.cn/community/018a245d85712da801211d53c6d216.jpg@3000w_1l_2o_100sh.jpg" },
-	{ singerId: 12, name: "周杰伦", num: "1000", pigSrc: "https://img.zcool.cn/community/018a245d85712da801211d53c6d216.jpg@3000w_1l_2o_100sh.jpg" },
-	{ singerId: 13, name: "周杰伦", num: "1000", pigSrc: "https://img.zcool.cn/community/018a245d85712da801211d53c6d216.jpg@3000w_1l_2o_100sh.jpg" },
-	{ singerId: 14, name: "周杰伦", num: "1000", pigSrc: "https://img.zcool.cn/community/018a245d85712da801211d53c6d216.jpg@3000w_1l_2o_100sh.jpg" },
 ];
+for(let i =0;i<15;i++){
+	allSinger.push({
+		singerId: i, name: "陈奕迅", num: "1000", pigSrc: "http://p1.music.126.net/ODuFZql3x08Q4AaW7y20Aw==/109951169014571694.jpg?param=130y130"
+	})
+}
 let active_singer_area = ref(0);
 let active_singer_man = ref(0);
 let active_singer_character = ref(0);

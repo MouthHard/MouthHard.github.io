@@ -3,9 +3,11 @@ module.exports = defineConfig({
   transpileDependencies: true,
   // 关闭eslint校验.
   devServer: {
-    // proxy: {
-    //     ws: false, // 添加该配置以支持 WebSocket 代理
-       
+    // proxy:{
+    //   '/api':{
+    //     target:'http://localhost:8080/',//产生跨域的地址
+    //     changeOrigin:true
+    //   }
     // },
 
 

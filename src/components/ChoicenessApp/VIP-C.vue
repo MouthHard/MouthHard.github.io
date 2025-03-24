@@ -753,15 +753,15 @@ onMounted(() => {
 }
 #VIPCFirstLine {
 	display: flex;
-	height: 27%;
+	height: 25%;
 	width: 100%;
 
 	justify-content: flex-start;
 	align-items: center;
 	#carousel_VIP {
 		border-radius: 15px;
-		width: 27%;
-		height: 100%;
+		width: 25%;
+		height: 90%;
 		margin: 0 1rem;
 		position: relative;
 		overflow: hidden;
@@ -838,7 +838,6 @@ onMounted(() => {
 		background: linear-gradient(to right, black, rgb(87, 87, 87));
 		border-radius: 10px;
 		align-items: center;
-
 		h1 {
 			width: 20%;
 			height: 100%;
@@ -888,7 +887,7 @@ onMounted(() => {
 		}
 		button {
 			margin: 10% 0;
-			height: 30%;
+			padding: 10px;
 			border-radius: 50%;
 			border: none;
 			transition: 1s;
